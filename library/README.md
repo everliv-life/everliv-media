@@ -11,6 +11,13 @@ This library is the source for any recognizable EverLiv product in social creati
 5. **Exclude storefront infographics.** The infographic gallery images on the store (index 02 for most products) carry structure/function claims. They are not in this library and must not be used.
 6. **Inspect before review.** Check every product at full resolution and at phone size before it goes for approval. If a convincing composite is not possible, use a plain product image or a product-free scene.
 
+## Product presentation (owner standard, Nov 14 2026)
+- **Hero:** when the product is the subject, show the complete authentic container (cap, label, base) with breathing room. If it doesn't fit, scale it down or rebalance the layout. Never cut it off.
+- **Label education:** use a deliberate, clearly labeled close-up of the facts panel or label, designed as a detail inset, not a cropped product.
+- **No half-products:** no half-containers in rounded frames, and no crops that show only the brand or product name.
+- **Fallback:** if the authentic assets don't work, use a typographic layout or request a better asset.
+- **QC:** check every frame at full size and phone size. No overlapping or clipped text; disclosures readable.
+
 ## File naming
 `library/<shopify-handle>/<handle>--<view>.<ext>`
 
