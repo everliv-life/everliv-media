@@ -1,0 +1,7 @@
+<string>:36: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:80: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+label arc deg 318.8301156376645
+<string>:90: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+05:01.839  render           | Saved: '/home/claude/es3d/eye-serum-3d-neutral-v2.png'
+Info: Saved as "eye-serum-3d-neutral-v2.blend"
+done /home/claude/es3d/eye-serum-3d-neutral-v2

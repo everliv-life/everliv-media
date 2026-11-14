@@ -1,0 +1,8 @@
+v3 geometry: ZC 0.7461 F_PX 5495.8 label z 0.0567..0.9836  K 0.000682  collar 0.9845..1.0538 top 1.4903
+<string>:40: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:84: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+label arc deg 306.4689789635968
+<string>:95: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+05:44.320  render           | Saved: '/home/claude/es3d/eye-serum-3d-neutral-v4.png'
+Info: Saved as "eye-serum-3d-neutral-v4.blend"
+done /home/claude/es3d/eye-serum-3d-neutral-v4
