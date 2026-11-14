@@ -26,6 +26,15 @@ This library is the source for any recognizable EverLiv product in social creati
    - **At thumbnail size (~150 px):** the product is recognizable.
    - **Independent review:** a fresh reviewer checks against the four benchmark references and the product source.
 
+7. **Human anatomy & interaction gate (publication-blocking).** Whenever people or hands appear:
+   - **Anatomy:** believable anatomy, proportions, skin and finger positioning.
+   - **Continuity:** nothing stretched, fused, disconnected or unnaturally cropped. A thumb or fingertip clipped at the frame edge fails.
+   - **Interaction:** physically credible, respecting how the packaging works.
+   - **No retrofitting:** never distort or reposition anatomy to fit a composite. Re-plan the scene around the real product's dimensions instead.
+   - **Inspection:** check at 100%, feed and thumbnail size.
+   - **Result:** any conspicuous error blocks publication, even if the label passes.
+8. **Targets are pass/fail.** A missed target (for example label sharpness under 85%) is a failure, not an approval.
+
 ## Product presentation (owner standard, Nov 14 2026)
 - **Hero:** when the product is the subject, show the complete authentic container (cap, label, base) as the visual anchor, with breathing room. If it doesn't fit, scale it down or rebalance the layout. Never cut it off.
 - **Believable handling:** hands interact the way the packaging actually works and never block the branding. Scale stays realistic relative to hands and nearby objects.
