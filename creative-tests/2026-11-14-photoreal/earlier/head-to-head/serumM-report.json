@@ -1,0 +1,18 @@
+{
+ "standin_bbox_native": [
+  580,
+  921,
+  818,
+  1810
+ ],
+ "product_bbox_feed": [
+  332,
+  540,
+  480,
+  1060
+ ],
+ "label_sharpness_pct": 89,
+ "aspect_error_pct": 2.05,
+ "remnant_px_inpainted_2160": 3541,
+ "product_width_pct_of_frame": 14
+}

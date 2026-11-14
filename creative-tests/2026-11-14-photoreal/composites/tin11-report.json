@@ -1,0 +1,17 @@
+{
+ "label_sharpness_pct": 92,
+ "aspect_error_pct": 0.02,
+ "registration_affine": [
+  [
+   1.0010000467300415,
+   0.0,
+   -0.2257000058889389
+  ],
+  [
+   -0.0,
+   0.9995999932289124,
+   0.04749999940395355
+  ]
+ ],
+ "product_height_pct_of_frame": 25
+}
