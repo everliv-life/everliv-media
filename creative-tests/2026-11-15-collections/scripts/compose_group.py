@@ -95,6 +95,15 @@ for it in items:
         fade[yb0:yb0 + n] = np.linspace(1, 0, len(fade[yb0:yb0 + n])); fade[yb0 + n:] = 0
         g *= fade[:, None]
         S *= (1 - sh['gstrength'] * g) * (1 - sh.get('contact', 0.25) * occ * fade[:, None])
+for ex in L.get('shadow_exclude', []):                # v2: keep cast shadows off raised props (e.g. a saucer rim)
+    x0e, y0e, x1e, y1e = ex; m = np.zeros((H, W), np.float32); m[y0e:y1e, x0e:x1e] = 1
+    m = cv2.GaussianBlur(m, (0, 0), 6); S = S * (1 - m) + m
+if L.get('shadow_exclude_shapes'):                   # v3: exact occluder outlines (ellipses / rects), lightly feathered
+    m = np.zeros((H, W), np.uint8)
+    for sh_ in L['shadow_exclude_shapes']:
+        if sh_[0] == 'ellipse': cv2.ellipse(m, (sh_[1], sh_[2]), (sh_[3], sh_[4]), 0, 0, 360, 1, -1)
+        else: m[sh_[2]:sh_[4], sh_[1]:sh_[3]] = 1
+    mf = cv2.GaussianBlur(m.astype(np.float32), (0, 0), 3); S = S * (1 - mf) + mf
 out = P * S[..., None]
 
 # --- products, back to front

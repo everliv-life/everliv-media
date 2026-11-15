@@ -208,8 +208,8 @@
   ]
  },
  "soapcoll_gift_vert": {
-  "plate": "plates/soap_gift_vert.jpg",
-  "out": "out/soapcoll_gift_vert",
+  "plate": "plates/soap_gift_vert_v2.jpg",
+  "out": "out/soapcoll_gift_vert_v2",
   "scene_wb": 0.5,
   "expo": "auto",
   "expo_region": [
@@ -230,38 +230,38 @@
   "items": [
    {
     "cutout": "/home/claude/kit/cutouts/everliv-milk-honey-soap--front-cutout-v2.png",
-    "x": 555,
-    "y": 1062,
+    "x": 515,
+    "y": 1042,
     "w": 380
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-sandalwood-soap--front-cutout-v2.png",
-    "x": 1005,
-    "y": 1062,
+    "x": 965,
+    "y": 1042,
     "w": 380
    },
    {
     "cutout": "/home/claude/kit/cutouts/coconut-beach-soap--front-cutout-v2.png",
-    "x": 555,
-    "y": 1470,
+    "x": 515,
+    "y": 1450,
     "w": 380
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-clean-forrest-soap--front-cutout-v2.png",
-    "x": 1005,
-    "y": 1470,
+    "x": 965,
+    "y": 1450,
     "w": 380
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-aloe-cool-cucumber-soap--front-cutout-v2.png",
-    "x": 555,
-    "y": 1878,
+    "x": 515,
+    "y": 1858,
     "w": 380
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-charcoal-soap--front-cutout-v2.png",
-    "x": 1005,
-    "y": 1878,
+    "x": 965,
+    "y": 1858,
     "w": 380
    }
   ],
@@ -340,7 +340,23 @@
  },
  "coffeecoll_counter_vert": {
   "plate": "plates/coffee_counter_vert.jpg",
-  "out": "out/coffeecoll_counter_vert",
+  "out": "out/coffeecoll_counter_vert_v3",
+  "shadow_exclude_shapes": [
+   [
+    "ellipse",
+    1439,
+    1817,
+    142,
+    38
+   ],
+   [
+    "rect",
+    1362,
+    1680,
+    1558,
+    1815
+   ]
+  ],
   "scene_wb": 0.4,
   "expo": "auto",
   "expo_region": [
@@ -363,30 +379,30 @@
   "items": [
    {
     "cutout": "/home/claude/kit/cutouts/everliv-hazelnut-coffee-medium-roast--front-cutout-v2.png",
-    "x": 220,
+    "x": 232,
     "y": 1905,
-    "w": 275,
+    "w": 245,
     "choke": 1
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
-    "x": 526,
+    "x": 518,
     "y": 1905,
-    "w": 275,
+    "w": 245,
     "choke": 1
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-mushroom-coffee-medium-roast--front-cutout-v2.png",
-    "x": 830,
+    "x": 802,
     "y": 1905,
-    "w": 275,
+    "w": 245,
     "choke": 1
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
-    "x": 1136,
+    "x": 1088,
     "y": 1905,
-    "w": 275,
+    "w": 245,
     "choke": 1
    }
   ],
@@ -458,7 +474,7 @@
  },
  "coffeecoll_gift_vert": {
   "plate": "plates/coffee_gift_vert.jpg",
-  "out": "out/coffeecoll_gift_vert",
+  "out": "out/coffeecoll_gift_vert_v2",
   "scene_wb": 0.3,
   "expo": 0.8,
   "mode": "upright",
@@ -474,30 +490,30 @@
   "items": [
    {
     "cutout": "/home/claude/kit/cutouts/everliv-hazelnut-coffee-medium-roast--front-cutout-v2.png",
-    "x": 272,
+    "x": 348,
     "y": 1830,
-    "w": 250,
+    "w": 190,
     "choke": 2
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
-    "x": 558,
+    "x": 582,
     "y": 1830,
-    "w": 250,
+    "w": 190,
     "choke": 2
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-mushroom-coffee-medium-roast--front-cutout-v2.png",
-    "x": 842,
+    "x": 818,
     "y": 1830,
-    "w": 250,
+    "w": 190,
     "choke": 2
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
-    "x": 1128,
+    "x": 1052,
     "y": 1830,
-    "w": 250,
+    "w": 190,
     "choke": 2
    }
   ],
@@ -580,7 +596,7 @@
  },
  "mixed_holiday_vert": {
   "plate": "plates/holiday_low_vert.jpg",
-  "out": "out/mixed_holiday_vert",
+  "out": "out/mixed_holiday_vert_v4",
   "scene_wb": 0.55,
   "expo": "auto",
   "expo_region": [
@@ -603,29 +619,29 @@
   "items": [
    {
     "cutout": "/home/claude/kit/cutouts/everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
-    "x": 233,
+    "x": 220,
     "y": 1968,
-    "w": 276,
+    "w": 280,
     "choke": 1
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-milk-honey-soap--front-cutout-v2.png",
-    "x": 523,
+    "x": 505,
     "y": 1968,
-    "w": 224
+    "w": 230
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
-    "x": 813,
+    "x": 790,
     "y": 1968,
-    "w": 276,
+    "w": 280,
     "choke": 1
    },
    {
     "cutout": "/home/claude/kit/cutouts/everliv-sandalwood-soap--front-cutout-v2.png",
-    "x": 1103,
+    "x": 1075,
     "y": 1968,
-    "w": 224
+    "w": 230
    }
   ],
   "exports": [
@@ -633,6 +649,69 @@
     1080,
     1350,
     "mobile-social"
+   ]
+  ]
+ },
+ "mixed_holiday_wide_tight": {
+  "plate": "plates/holiday_low_wide_tight.jpg",
+  "out": "out/mixed_holiday_wide_tight",
+  "scene_wb": 0.55,
+  "expo": "auto",
+  "expo_region": [
+   750,
+   1160,
+   2300,
+   1290
+  ],
+  "expo_bias": 0.95,
+  "mode": "upright",
+  "shadow": {
+   "contact": 0.25,
+   "glen": 0.2,
+   "gdx": 135.0,
+   "gsigma": 10.8,
+   "gstrength": 0.3,
+   "front_fade": 20
+  },
+  "grain_sd": 2.4,
+  "items": [
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-sandalwood-soap--front-cutout-v2.png",
+    "x": 795,
+    "y": 1208,
+    "w": 250
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
+    "x": 1109,
+    "y": 1208,
+    "w": 306,
+    "choke": 1
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-milk-honey-soap--front-cutout-v2.png",
+    "x": 1424,
+    "y": 1208,
+    "w": 250
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
+    "x": 1738,
+    "y": 1208,
+    "w": 306,
+    "choke": 1
+   }
+  ],
+  "exports": [
+   [
+    2560,
+    1429,
+    "desktop"
+   ],
+   [
+    1920,
+    1072,
+    "desktop"
    ]
   ]
  }

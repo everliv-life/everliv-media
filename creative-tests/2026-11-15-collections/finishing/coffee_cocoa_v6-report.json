@@ -1,0 +1,19 @@
+{
+ "scale_from_cutout": 0.8303,
+ "product_px": [
+  601,
+  1324
+ ],
+ "product_height_pct_of_frame": 49.0,
+ "product_width_pct_of_frame": 27.8,
+ "exposure_scalar": 0.954,
+ "label_sharpness_pct_of_source_same_width": 82,
+ "mean_abs_chroma_ratio_shift": 0.002,
+ "grain_sd": 2.4,
+ "note": "product pixels = cut-out x exposure scalar + luminance grain; no tint",
+ "supplier_source_render": "library/cocoa-coffee-medium-roast/cocoa-coffee-medium-roast--bag-front.jpg",
+ "template": "T4 holiday kitchen",
+ "change": "scale 0.83 (was 1.0): carton-to-mug correction per owner Nov 15",
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "qa": "review-final / review-final2"
+}

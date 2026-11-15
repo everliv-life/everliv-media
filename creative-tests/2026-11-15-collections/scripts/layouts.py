@@ -27,8 +27,8 @@ def cascade(keys,cx,cy,w,g,shift):
 gift=['omh','sand','coco','slum','aloe','char']
 L['soapcoll_gift_wide']=dict(plate='plates/soap_gift_wide.jpg',out='out/soapcoll_gift_wide',scene_wb=0.5,expo='auto',expo_region=[1000,300,2100,1300],mode='topdown',shadow=TD,grain_sd=2.4,
   items=cascade(gift,1560,790,310,80,0.3),exports=[[2560,1429,'desktop'],[1920,1072,'desktop']])
-L['soapcoll_gift_vert']=dict(plate='plates/soap_gift_vert.jpg',out='out/soapcoll_gift_vert',scene_wb=0.5,expo='auto',expo_region=[200,800,1400,2100],mode='topdown',shadow={**TD,'dx':52,'dy':64,'sigma':52},grain_sd=2.4,
-  items=grid(gift,780,1470,380,70,70,2),exports=[[1080,1350,'mobile-social']])
+L['soapcoll_gift_vert']=dict(plate='plates/soap_gift_vert_v2.jpg',out='out/soapcoll_gift_vert_v2',scene_wb=0.5,expo='auto',expo_region=[200,800,1400,2100],mode='topdown',shadow={**TD,'dx':52,'dy':64,'sigma':52},grain_sd=2.4,
+  items=grid(gift,740,1450,380,70,70,2),exports=[[1080,1350,'mobile-social']])
 json.dump(L,open('layouts.json','w'),indent=1)
 UP=lambda h:{'contact':0.25,'glen':0.2,'gdx':h*0.2,'gsigma':max(8,h*0.016),'gstrength':0.27,'front_fade':max(20,int(h*0.028))}
 def row(keys,cx,base,w,gap):
@@ -36,12 +36,12 @@ def row(keys,cx,base,w,gap):
 four=['haz','coc','mus','car']
 L['coffeecoll_counter_wide']=dict(plate='plates/coffee_counter_wide.jpg',out='out/coffeecoll_counter_wide',scene_wb=0.4,expo='auto',expo_region=[900,1150,2000,1300],expo_bias=0.97,mode='upright',shadow={**UP(595),'gstrength':0.45,'glen':0.45,'gsigma':5},grain_sd=2.4,
   items=row(four,1450,1285,270,60),exports=[[2560,1429,'desktop'],[1920,1072,'desktop']])
-L['coffeecoll_counter_vert']=dict(plate='plates/coffee_counter_vert.jpg',out='out/coffeecoll_counter_vert',scene_wb=0.4,expo='auto',expo_region=[100,1780,1300,1950],expo_bias=0.97,mode='upright',shadow={**UP(605),'gstrength':0.45,'glen':0.45,'gsigma':5},grain_sd=2.4,
-  items=row(four,678,1905,275,30),exports=[[1080,1350,'mobile-social']])
+L['coffeecoll_counter_vert']=dict(plate='plates/coffee_counter_vert.jpg',out='out/coffeecoll_counter_vert_v3',shadow_exclude_shapes=[['ellipse',1439,1817,142,38],['rect',1362,1680,1558,1815]],scene_wb=0.4,expo='auto',expo_region=[100,1780,1300,1950],expo_bias=0.97,mode='upright',shadow={**UP(605),'gstrength':0.45,'glen':0.45,'gsigma':5},grain_sd=2.4,
+  items=row(four,660,1905,245,40),exports=[[1080,1350,'mobile-social']])
 L['coffeecoll_gift_wide']=dict(plate='plates/coffee_gift_wide.jpg',out='out/coffeecoll_gift_wide',scene_wb=0.3,expo=0.8,mode='upright',shadow=UP(530),grain_sd=2.4,
   items=[dict(i,choke=2) for i in row(four,1500,1215,240,60)],exports=[[2560,1429,'desktop'],[1920,1072,'desktop']])
-L['coffeecoll_gift_vert']=dict(plate='plates/coffee_gift_vert.jpg',out='out/coffeecoll_gift_vert',scene_wb=0.3,expo=0.8,mode='upright',shadow=UP(430),grain_sd=2.4,
-  items=[dict(i,choke=2) for i in row(four,700,1830,250,35)],exports=[[1080,1350,'mobile-social']])
+L['coffeecoll_gift_vert']=dict(plate='plates/coffee_gift_vert.jpg',out='out/coffeecoll_gift_vert_v2',scene_wb=0.3,expo=0.8,mode='upright',shadow=UP(430),grain_sd=2.4,
+  items=[dict(i,choke=2) for i in row(four,700,1830,190,45)],exports=[[1080,1350,'mobile-social']])
 def soapup(k,x,base,w): d=soap(k,x,base,w); return d
 L['mixed_holiday_wide_old']=dict(plate='plates/holiday_table_wide.jpg',out='out/mixed_holiday_wide',scene_wb=0.3,expo='auto',expo_region=[1000,950,1900,1150],expo_bias=0.95,mode='upright',shadow=UP(600),grain_sd=2.4,
   items=[cof('car',1610,1075,258),cof('coc',1270,1100,272),soapup('sand',1080,1190,214),soapup('omh',1345,1196,218),soapup('char',1620,1192,216)],
@@ -56,7 +56,11 @@ def alt(seq,x0,base,gap):
     return out
 L['mixed_holiday_wide']=dict(plate='plates/holiday_low_wide.jpg',out='out/mixed_holiday_wide',scene_wb=0.55,expo='auto',expo_region=[800,1180,2050,1300],expo_bias=0.95,mode='upright',shadow={**UP(552),'gstrength':0.3},grain_sd=2.4,
   items=alt([('s','sand',204),('c','coc',250),('s','omh',204),('c','car',250),('s','char',204)],825,1268,35),exports=[[2560,1429,'desktop'],[1920,1072,'desktop']])
-L['mixed_holiday_vert']=dict(plate='plates/holiday_low_vert.jpg',out='out/mixed_holiday_vert',scene_wb=0.55,expo='auto',expo_region=[100,1900,1200,2000],expo_bias=0.95,mode='upright',shadow={**UP(610),'gstrength':0.3},grain_sd=2.4,
-  items=alt([('c','coc',276),('s','omh',224),('c','car',276),('s','sand',224)],95,1968,40),exports=[[1080,1350,'mobile-social']])
+L['mixed_holiday_vert']=dict(plate='plates/holiday_low_vert.jpg',out='out/mixed_holiday_vert_v4',scene_wb=0.55,expo='auto',expo_region=[100,1900,1200,2000],expo_bias=0.95,mode='upright',shadow={**UP(610),'gstrength':0.3},grain_sd=2.4,
+  items=alt([('c','coc',280),('s','omh',230),('c','car',280),('s','sand',230)],80,1968,30),exports=[[1080,1350,'mobile-social']])
 L.pop('mixed_holiday_wide_old',None); L.pop('mixed_holiday_vert_old',None)
+z=2752/2250; oy=1536-round(1536/z)
+L['mixed_holiday_wide_tight']=dict(plate='plates/holiday_low_wide_tight.jpg',out='out/mixed_holiday_wide_tight',scene_wb=0.55,expo='auto',expo_region=[750,1160,2300,1290],expo_bias=0.95,mode='upright',shadow={**UP(round(552*z)),'gstrength':0.3},grain_sd=2.4,
+  items=[dict(it,x=round((it['x']-502)*z),y=round((it['y']-oy)*z),w=round(it['w']*z)) for it in alt([('s','sand',204),('c','coc',250),('s','omh',204),('c','car',250)],1050,1268,30)],
+  exports=[[2560,1429,'desktop'],[1920,1072,'desktop']])
 json.dump(L,open('layouts.json','w'),indent=1)

@@ -31,3 +31,12 @@ Use this if the session pauses. Everything below is in the `everliv-media` repo 
 2. Update `ASSET-REGISTER.md` labels.
 3. Commit and push. Update the project doc `claude/collection-photography-2026-11-15.md`.
 4. Once Restructuring answers the bundle, coffee-packaging and foil questions, move the affected assets out of PENDING VERIFICATION or BLOCKED.
+
+## Update: Nov 15, final finishing pass
+- The canonical library is now `library/editorial/`: individual, collections, bundles and templates, with `registry.json`, `ASSET-REGISTER.md` and `RESTRUCTURING-HANDOFF.md`.
+- Finishing builds are in `creative-tests/2026-11-15-collections/finishing/`. QA for them is in `qa/review-final` and `qa/review-final2`.
+- Coffee scale: the individual coffee images now use cut-out scale 0.83, which puts the carton at about 24–26 cm against a mug. The earlier approved versions are preserved.
+- Waiting on the owner:
+  - re-approval of the corrected coffee holiday mobile image
+  - review of the 3 corrected mobile images and the tight desktop alternative
+- Waiting on Restructuring and the supplier: the items in `RESTRUCTURING-HANDOFF.md` sections 2–4.

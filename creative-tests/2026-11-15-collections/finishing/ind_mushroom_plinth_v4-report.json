@@ -1,0 +1,19 @@
+{
+ "scale_from_cutout": 0.8296,
+ "product_px": [
+  601,
+  1323
+ ],
+ "product_height_pct_of_frame": 49.0,
+ "product_width_pct_of_frame": 27.8,
+ "exposure_scalar": 0.969,
+ "label_sharpness_pct_of_source_same_width": 82,
+ "mean_abs_chroma_ratio_shift": 0.002,
+ "grain_sd": 2.66,
+ "note": "product pixels = cut-out x exposure scalar + luminance grain; no tint",
+ "supplier_source_render": "library/mushroom-coffee-medium-roast/mushroom-coffee-medium-roast--bag-front.jpg",
+ "template": "T3 stone plinth",
+ "change": "scale 0.83 for set-wide consistency",
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "qa": "review-final / review-final2"
+}
