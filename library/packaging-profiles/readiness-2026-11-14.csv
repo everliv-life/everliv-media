@@ -1,0 +1,42 @@
+handle,title,family,imagery_tier,reason,angled_3d_lifestyle
+everliv-peptide-eye-serum,EverLiv Peptide Eye Serum,PF-01,BLOCKED,Label wording/badges open; 3D v8 frozen provisional,NEEDS SUPPLIER DIMENSIONS/DIELINES
+energy-strips,EverLiv Energy Strips,PF-02,BLOCKED,Natural Extracts unverified,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-sleep-strips,EverLiv Sleep Strips,PF-02,EXCLUDED,Owner exclusion; out of stock until Nov 25,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-hydrate-strips,EverLiv Hydrate Strips,PF-02,BLOCKED,Natural Extracts unverified,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-iron-strips,EverLiv Iron Strips,PF-02,BLOCKED,Natural Extracts unverified,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-k2-d3-strips,EverLiv D3 + K2 Strips,PF-02,BLOCKED,Natural Extracts unverified,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-collagen-strips,EverLiv Collagen Strips,PF-02,BLOCKED,Natural Extracts unverified,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-everglo-essentials,EverLiv EverGlow Essentials,PF-03,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-ignitefx-with-mct,EverLiv IgniteFX with MCT,PF-03,BLOCKED,High-risk claim (weight management/fat metabolism/cravings),NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-lions-mane-mushroom,EverLiv Lion's Mane Mushroom,PF-03,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-ashwagandha-black-pepper,EverLiv Ashwagandha + Black Pepper,PF-03,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-pure-moringa,EverLiv Pure Moringa,PF-03,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-resveratrol-600mg,EverLiv Resveratrol 600mg,PF-03,BLOCKED,Longevity claim,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-nad,EverLiv NAD+,PF-03,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-magnesium-glycinate,EverLiv Magnesium Glycinate,PF-03,BLOCKED,Front claim substantiation pending,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-granular-berberine,EverLiv Granular Berberine,PF-03,BLOCKED,High-risk claim (blood sugar/insulin/longevity),NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-β-nmn,EverLiv β-NMN,PF-03,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-mushroom-extract-gummies,EverLiv Mushroom Extract Gummies,PF-04,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-pure-creatine-monohydrate,EverLiv Pure Creatine Monohydrate,PF-05,BLOCKED,"Scoop 5.6 g vs 5,000 mg + claim substantiation",NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-pure-l-glutamine-powder,EverLiv Pure L-Glutamine Powder,PF-05,BLOCKED,High-risk claim (growth hormone),NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-creatine-electrolytes,EverLiv Creatine+ Electrolytes,PF-05,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-vitamin-c-prebiotic-mushroom-blend,EverLiv Vitamin C & Prebiotic Mushroom Blend,PF-06,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-collagen-creamer-vanilla,EverLiv Collagen Creamer (Vanilla),PF-07,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-collagen-peptides-powder,EverLiv Collagen Peptides Powder,PF-07,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-collagen-peptides-powder-chocolate,EverLiv Collagen Peptides Powder (Chocolate),PF-07,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-bee-bread-powder,EverLiv Bee Bread Powder,PF-07,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-natures-ultra-cleanse-smoothie-greens,EverLiv Nature's Ultra Cleanse Smoothie Greens,PF-07,BLOCKED,High-risk claim (detoxification),NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-pure-whey-protein-isolate-chocolate,EverLiv Pure Whey Protein Isolate (Chocolate),PF-08,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-pure-whey-protein-isolate-vanilla,EverLiv Pure Whey Protein Isolate (Vanilla),PF-08,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-pure-plant-protein-chocolate,EverLiv Pure Plant Protein (Chocolate),PF-08,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-pure-plant-protein-vanilla,EverLiv Pure Plant Protein (Vanilla),PF-08,CLAIM_GATED,Front-label S/F claim; substantiation requested,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-hazelnut-coffee-medium-roast,EverLiv Hazelnut Coffee (Medium Roast),PF-09,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-cocoa-coffee-medium-roast,EverLiv Cocoa Coffee (Medium Roast),PF-09,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-mushroom-coffee-medium-roast,EverLiv Mushroom Coffee (Medium Roast),PF-09,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-caramel-coffee-dark-roast,EverLiv Caramel Coffee (Dark Roast),PF-09,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-clean-forrest-soap,EverLiv Slumber Soap,PF-10,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-charcoal-soap,EverLiv Charcoal Soap,PF-10,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+coconut-beach-soap,EverLiv Coconut Beach Soap,PF-10,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-sandalwood-soap,EverLiv Rich Sandalwood Soap,PF-10,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-aloe-cool-cucumber-soap,EverLiv Aloe & Cool Cucumber Soap,PF-10,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
+everliv-milk-honey-soap,EverLiv Oat Milk Honey Soap,PF-10,READY_STRAIGHT_ON,No supplement claims on front label,NEEDS SUPPLIER DIMENSIONS/DIELINES
