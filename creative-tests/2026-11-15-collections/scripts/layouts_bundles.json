@@ -1,0 +1,113 @@
+{
+ "bundle_aromatherapy": {
+  "plate": "plates/bundle_flat_vert.png",
+  "out": "out/bundle_aromatherapy",
+  "expo": 1.0,
+  "mode": "topdown",
+  "shadow": {
+   "dx": 30,
+   "dy": 40,
+   "sigma": 34,
+   "strength": 0.16,
+   "contact": 0.22
+  },
+  "grain_sd": 1.6,
+  "items": [
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-aloe-cool-cucumber-soap--front-cutout-v2.png",
+    "x": 715,
+    "y": 690,
+    "w": 640
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-clean-forrest-soap--front-cutout-v2.png",
+    "x": 1445,
+    "y": 690,
+    "w": 640
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-charcoal-soap--front-cutout-v2.png",
+    "x": 715,
+    "y": 1350,
+    "w": 640
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-milk-honey-soap--front-cutout-v2.png",
+    "x": 1445,
+    "y": 1350,
+    "w": 640
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-sandalwood-soap--front-cutout-v2.png",
+    "x": 715,
+    "y": 2010,
+    "w": 640
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/coconut-beach-soap--front-cutout-v2.png",
+    "x": 1445,
+    "y": 2010,
+    "w": 640
+   }
+  ],
+  "exports": [
+   [
+    1080,
+    1350,
+    "listing"
+   ]
+  ]
+ },
+ "bundle_artisan_coffee": {
+  "plate": "plates/bundle_upright_vert.png",
+  "out": "out/bundle_artisan_coffee",
+  "expo": 1.0,
+  "mode": "upright",
+  "shadow": {
+   "contact": 0.25,
+   "glen": 0.2,
+   "gdx": 210.0,
+   "gsigma": 16.8,
+   "gstrength": 0.2,
+   "front_fade": 29
+  },
+  "grain_sd": 1.6,
+  "items": [
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-hazelnut-coffee-medium-roast--front-cutout-v2.png",
+    "x": 345,
+    "y": 1800,
+    "w": 410,
+    "choke": 2
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
+    "x": 835,
+    "y": 1800,
+    "w": 410,
+    "choke": 2
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-mushroom-coffee-medium-roast--front-cutout-v2.png",
+    "x": 1325,
+    "y": 1800,
+    "w": 410,
+    "choke": 2
+   },
+   {
+    "cutout": "/home/claude/kit/cutouts/everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
+    "x": 1815,
+    "y": 1800,
+    "w": 410,
+    "choke": 2
+   }
+  ],
+  "exports": [
+   [
+    1080,
+    1350,
+    "listing"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "scale_from_cutout": 0.5847,
+ "product_px": [
+  842,
+  749
+ ],
+ "product_height_pct_of_frame": 27.7,
+ "product_width_pct_of_frame": 39.0,
+ "exposure_scalar": 0.98,
+ "label_sharpness_pct_of_source_same_width": 99,
+ "mean_abs_chroma_ratio_shift": 0.0015,
+ "grain_sd": 3.0,
+ "note": "product pixels = cut-out x exposure scalar + luminance grain; no tint",
+ "exposure_measured_by_independent_qa": 0.978,
+ "supplier_source_render": "catalog fronts everliv-aloe-cool-cucumber-soap.jpg",
+ "template": "T2 spa counter (scene mirrored)",
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "qa": "qa/review-ind6 (READY, visual QA passed)"
+}

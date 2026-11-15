@@ -1,0 +1,86 @@
+{
+ "plate": "plates/soap_gift_vert.jpg",
+ "items": [
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-milk-honey-soap--front-cutout-v2.png",
+   "scale": 0.2639,
+   "px": [
+    380,
+    341
+   ],
+   "xy": [
+    365,
+    892
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-sandalwood-soap--front-cutout-v2.png",
+   "scale": 0.2646,
+   "px": [
+    380,
+    338
+   ],
+   "xy": [
+    815,
+    893
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/coconut-beach-soap--front-cutout-v2.png",
+   "scale": 0.2652,
+   "px": [
+    380,
+    327
+   ],
+   "xy": [
+    365,
+    1306
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-clean-forrest-soap--front-cutout-v2.png",
+   "scale": 0.2648,
+   "px": [
+    380,
+    320
+   ],
+   "xy": [
+    815,
+    1310
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-aloe-cool-cucumber-soap--front-cutout-v2.png",
+   "scale": 0.2637,
+   "px": [
+    380,
+    338
+   ],
+   "xy": [
+    365,
+    1709
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-charcoal-soap--front-cutout-v2.png",
+   "scale": 0.2648,
+   "px": [
+    380,
+    315
+   ],
+   "xy": [
+    815,
+    1720
+   ]
+  }
+ ],
+ "scene_wb_gain": [
+  0.9775999784469604,
+  0.998199999332428,
+  1.0260000228881836
+ ],
+ "exposure_scalar": 0.9018,
+ "grain_sd": 2.4,
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "note": "product pixels = cut-out x one exposure scalar + luminance grain; no tint, relight, warp or mirroring"
+}

@@ -1,0 +1,62 @@
+{
+ "plate": "plates/holiday_low_vert.jpg",
+ "items": [
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
+   "scale": 0.3812,
+   "px": [
+    276,
+    608
+   ],
+   "xy": [
+    95,
+    1360
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-milk-honey-soap--front-cutout-v2.png",
+   "scale": 0.1556,
+   "px": [
+    224,
+    201
+   ],
+   "xy": [
+    411,
+    1767
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
+   "scale": 0.3812,
+   "px": [
+    276,
+    608
+   ],
+   "xy": [
+    675,
+    1360
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-sandalwood-soap--front-cutout-v2.png",
+   "scale": 0.156,
+   "px": [
+    224,
+    200
+   ],
+   "xy": [
+    991,
+    1768
+   ]
+  }
+ ],
+ "scene_wb_gain": [
+  0.9659000039100647,
+  0.9994000196456909,
+  1.0384000539779663
+ ],
+ "exposure_scalar": 0.9134,
+ "grain_sd": 2.4,
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "note": "product pixels = cut-out x one exposure scalar + luminance grain; no tint, relight, warp or mirroring"
+}

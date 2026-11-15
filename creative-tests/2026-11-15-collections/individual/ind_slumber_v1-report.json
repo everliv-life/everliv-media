@@ -1,0 +1,19 @@
+{
+ "scale_from_cutout": 0.62,
+ "product_px": [
+  890,
+  749
+ ],
+ "product_height_pct_of_frame": 27.7,
+ "product_width_pct_of_frame": 41.2,
+ "exposure_scalar": 0.976,
+ "label_sharpness_pct_of_source_same_width": 98,
+ "mean_abs_chroma_ratio_shift": 0.001,
+ "grain_sd": 3.0,
+ "note": "product pixels = cut-out x exposure scalar + luminance grain; no tint",
+ "exposure_measured_by_independent_qa": 0.974,
+ "supplier_source_render": "catalog fronts everliv-clean-forrest-soap.jpg (label SLUMBER)",
+ "template": "T2 spa counter",
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "qa": "qa/review-ind6 (READY, visual QA passed)"
+}

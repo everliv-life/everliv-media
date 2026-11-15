@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/everliv-media-repo/library/hazelnut-coffee-medium-roast/hazelnut-coffee-medium-roast--front-cutout.png",
+ "out": "cutouts/everliv-hazelnut-coffee-medium-roast--front-cutout-v2.png",
+ "crop_box": [
+  1,
+  1,
+  725,
+  1596
+ ],
+ "size": [
+  724,
+  1595
+ ],
+ "opaque_px": 1041842,
+ "edge_band_px": 20858,
+ "interior_pixels_identical_to_source": true
+}

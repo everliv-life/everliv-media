@@ -1,0 +1,122 @@
+[
+ {
+  "file": "coconut-beach-soap--front-cutout-v2.png",
+  "handle": "coconut-beach-soap",
+  "size": [
+   1433,
+   1235
+  ],
+  "supplier_source": "catalog front coconut-beach-soap.jpg",
+  "opaque_px": 1693843,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "230ad3b3787046cf"
+ },
+ {
+  "file": "everliv-aloe-cool-cucumber-soap--front-cutout-v2.png",
+  "handle": "everliv-aloe-cool-cucumber-soap",
+  "size": [
+   1441,
+   1281
+  ],
+  "supplier_source": "catalog front everliv-aloe-cool-cucumber-soap.jpg",
+  "opaque_px": 1761898,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "b16f92ecea78b9a0"
+ },
+ {
+  "file": "everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
+  "handle": "everliv-caramel-coffee-dark-roast",
+  "size": [
+   724,
+   1595
+  ],
+  "supplier_source": "library/caramel-coffee-dark-roast/caramel-coffee-dark-roast--bag-front.jpg",
+  "opaque_px": 1041783,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "2e7b4aa6216e7008"
+ },
+ {
+  "file": "everliv-charcoal-soap--front-cutout-v2.png",
+  "handle": "everliv-charcoal-soap",
+  "size": [
+   1435,
+   1191
+  ],
+  "supplier_source": "catalog front everliv-charcoal-soap.jpg",
+  "opaque_px": 1642187,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "cd365124da3784f8"
+ },
+ {
+  "file": "everliv-clean-forrest-soap--front-cutout-v2.png",
+  "handle": "everliv-clean-forrest-soap",
+  "size": [
+   1435,
+   1208
+  ],
+  "supplier_source": "catalog front everliv-clean-forrest-soap.jpg (label: SLUMBER)",
+  "opaque_px": 1675704,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "184f33e2d75b3ced"
+ },
+ {
+  "file": "everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
+  "handle": "everliv-cocoa-coffee-medium-roast",
+  "size": [
+   724,
+   1595
+  ],
+  "supplier_source": "library/cocoa-coffee-medium-roast/cocoa-coffee-medium-roast--bag-front.jpg",
+  "opaque_px": 1041465,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "d8f157ba3b3fb356"
+ },
+ {
+  "file": "everliv-hazelnut-coffee-medium-roast--front-cutout-v2.png",
+  "handle": "everliv-hazelnut-coffee-medium-roast",
+  "size": [
+   724,
+   1595
+  ],
+  "supplier_source": "library/hazelnut-coffee-medium-roast/hazelnut-coffee-medium-roast--bag-front.jpg",
+  "opaque_px": 1041842,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "2a8436e54ad037ac"
+ },
+ {
+  "file": "everliv-milk-honey-soap--front-cutout-v2.png",
+  "handle": "everliv-milk-honey-soap",
+  "size": [
+   1440,
+   1292
+  ],
+  "supplier_source": "catalog front everliv-milk-honey-soap.jpg",
+  "opaque_px": 1778362,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "5f4df19137bc0b73"
+ },
+ {
+  "file": "everliv-mushroom-coffee-medium-roast--front-cutout-v2.png",
+  "handle": "everliv-mushroom-coffee-medium-roast",
+  "size": [
+   724,
+   1595
+  ],
+  "supplier_source": "library/mushroom-coffee-medium-roast/mushroom-coffee-medium-roast--bag-front.jpg",
+  "opaque_px": 1041864,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "7c1adf03366f8b62"
+ },
+ {
+  "file": "everliv-sandalwood-soap--front-cutout-v2.png",
+  "handle": "everliv-sandalwood-soap",
+  "size": [
+   1436,
+   1279
+  ],
+  "supplier_source": "catalog front everliv-sandalwood-soap.jpg",
+  "opaque_px": 1775708,
+  "status": "VERIFIED (interior pixels byte-identical to supplier source; edge band decontaminated; reviewed in finished composites)",
+  "sha256": "5934c22ea8360b52"
+ }
+]

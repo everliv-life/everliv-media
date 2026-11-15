@@ -1,0 +1,62 @@
+{
+ "plate": "plates/coffee_gift_wide.jpg",
+ "items": [
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-hazelnut-coffee-medium-roast--front-cutout-v2.png",
+   "scale": 0.3315,
+   "px": [
+    240,
+    529
+   ],
+   "xy": [
+    930,
+    686
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
+   "scale": 0.3315,
+   "px": [
+    240,
+    529
+   ],
+   "xy": [
+    1230,
+    686
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-mushroom-coffee-medium-roast--front-cutout-v2.png",
+   "scale": 0.3315,
+   "px": [
+    240,
+    529
+   ],
+   "xy": [
+    1530,
+    686
+   ]
+  },
+  {
+   "cutout": "/home/claude/kit/cutouts/everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
+   "scale": 0.3315,
+   "px": [
+    240,
+    529
+   ],
+   "xy": [
+    1830,
+    686
+   ]
+  }
+ ],
+ "scene_wb_gain": [
+  0.9965000152587891,
+  0.9936000108718872,
+  1.010200023651123
+ ],
+ "exposure_scalar": 0.8,
+ "grain_sd": 2.4,
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "note": "product pixels = cut-out x one exposure scalar + luminance grain; no tint, relight, warp or mirroring"
+}

@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/everliv-media-repo/library/cocoa-coffee-medium-roast/cocoa-coffee-medium-roast--front-cutout.png",
+ "out": "cutouts/everliv-cocoa-coffee-medium-roast--front-cutout-v2.png",
+ "crop_box": [
+  1,
+  1,
+  725,
+  1596
+ ],
+ "size": [
+  724,
+  1595
+ ],
+ "opaque_px": 1041465,
+ "edge_band_px": 21329,
+ "interior_pixels_identical_to_source": true
+}

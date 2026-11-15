@@ -1,0 +1,19 @@
+{
+ "scale_from_cutout": 0.6653,
+ "product_px": [
+  953,
+  822
+ ],
+ "product_height_pct_of_frame": 30.4,
+ "product_width_pct_of_frame": 44.1,
+ "exposure_scalar": 1.009,
+ "label_sharpness_pct_of_source_same_width": 100,
+ "mean_abs_chroma_ratio_shift": 0.0015,
+ "grain_sd": 3.0,
+ "note": "product pixels = cut-out x exposure scalar + luminance grain; no tint",
+ "exposure_measured_by_independent_qa": 1.005,
+ "supplier_source_render": "catalog fronts coconut-beach-soap.jpg",
+ "template": "T1 gift flat lay (scene mirrored)",
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "qa": "qa/review-ind6 (READY, visual QA passed)"
+}

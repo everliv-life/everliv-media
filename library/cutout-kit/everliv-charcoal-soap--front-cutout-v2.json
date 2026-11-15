@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/catalog/fronts/everliv-charcoal-soap.jpg",
+ "out": "cutouts/everliv-charcoal-soap--front-cutout-v2.png",
+ "crop_box": [
+  326,
+  461,
+  1761,
+  1652
+ ],
+ "size": [
+  1435,
+  1191
+ ],
+ "opaque_px": 1642785,
+ "edge_band_px": 25976,
+ "interior_pixels_identical_to_source": true
+}

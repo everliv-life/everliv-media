@@ -1,0 +1,19 @@
+{
+ "scale_from_cutout": 1.0,
+ "product_px": [
+  724,
+  1595
+ ],
+ "product_height_pct_of_frame": 59.1,
+ "product_width_pct_of_frame": 33.5,
+ "exposure_scalar": 0.954,
+ "label_sharpness_pct_of_source_same_width": 77,
+ "mean_abs_chroma_ratio_shift": 0.002,
+ "grain_sd": 2.4,
+ "note": "product pixels = cut-out x exposure scalar + luminance grain; no tint",
+ "exposure_measured_by_independent_qa": 0.951,
+ "supplier_source_render": "library/caramel-coffee-dark-roast/caramel-coffee-dark-roast--bag-front.jpg",
+ "template": "T4 holiday kitchen (same scene orientation as approved cocoa)",
+ "disclosure": "Product shown as supplied; scene digitally created.",
+ "qa": "qa/review-ind6 (READY, visual QA passed)"
+}

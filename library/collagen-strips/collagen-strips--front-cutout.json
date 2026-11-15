@@ -1,0 +1,17 @@
+{
+ "file": "collagen-strips--front-cutout.png",
+ "version": "v2 (replaces degraded v1, owner-approved 2026-11-15)",
+ "source": "collagen-strips--front.png (supplier render, 2048x2048)",
+ "crop_offset_xy": [
+  353,
+  472
+ ],
+ "size": [
+  1338,
+  1330
+ ],
+ "rgb_identical_to_source_where_opaque": true,
+ "alpha_254_to_255_px": 10130,
+ "previous": "superseded/collagen-strips--front-cutout--v1-degraded.png (no fully opaque pixels; soft/degraded matte)",
+ "note": "Collagen Strips remain BLOCKED for promotion (Natural Extracts claim unverified)."
+}
