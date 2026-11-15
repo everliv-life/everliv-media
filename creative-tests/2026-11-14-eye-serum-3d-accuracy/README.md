@@ -1,5 +1,7 @@
 # Peptide Eye Serum: provisional 3D packaging-accuracy test (Nov 14, 2026)
 
+> **FROZEN — v8 PROVISIONAL (owner, Nov 14, 7:24 PM ET).** No further modeling passes until Supliful supplies dimensions, print-ready artwork, closure details and material finishes. Not approved for lifestyle scenes, angled product photography or publication. Git tag: `eye-serum-3d-v8-provisional`.
+
 **Internal test only. Not for publication.** Owner-approved (Nov 14, 17:48) as a neutral-model test only. There is no lifestyle scene, no other product and no batch.
 
 ## Inputs
