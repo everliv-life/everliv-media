@@ -1,0 +1,52 @@
+{
+ "silhouette_IoU": 0.9831,
+ "silhouette_worst_row_edge_offset_px": 45,
+ "label_sharpness_laplacian": {
+  "logo": {
+   "supplier": 1768,
+   "model": 1375,
+   "ratio": 0.78
+  },
+  "title": {
+   "supplier": 4302,
+   "model": 3194,
+   "ratio": 0.74
+  },
+  "netwt_series": {
+   "supplier": 5900,
+   "model": 4005,
+   "ratio": 0.68
+  },
+  "qr": {
+   "supplier": 14768,
+   "model": 10475,
+   "ratio": 0.71
+  },
+  "ingredients_edge": {
+   "supplier": 31669,
+   "model": 14816,
+   "ratio": 0.47
+  }
+ },
+ "qr_bbox": {
+  "supplier": [
+   1197,
+   1195,
+   1237,
+   1395
+  ],
+  "model": [
+   1198,
+   1179,
+   1239,
+   1383
+  ]
+ },
+ "label_sharpness_p99_pct_of_supplier": {
+  "label_centre_panel": 97,
+  "logo": 99,
+  "title": 98,
+  "netwt_series": 90,
+  "qr": 88
+ }
+}

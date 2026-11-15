@@ -55,3 +55,55 @@ Geometry was solved from the supplier render:
 - Wrap length and seam position.
 - Pump and base geometry.
 - No 1% dimensional-accuracy claim is made.
+
+
+## Correction under the product-authenticity standard (v5–v8, Nov 14 evening)
+**Trigger:** the owner found that the v4 cap and upper packaging differed visibly from Supliful's mockups.
+
+**References audited:**
+- the Supliful listing `supliful.com/catalog/peptide-eye-gel-cream`: 1 fl oz / 30 ml, 50 g gross, plus blank cap-on, cap-off and lying-bottle renders
+- the store's cap-off render
+- a 200% audit of the supplier front render
+
+**Root cause:** the v1–v4 geometry was inferred from a single front render using a generic airless-bottle assumption. That assumption produced a protruding grey collar ring, and the camera position was guessed rather than solved.
+
+| Version | Change |
+|---|---|
+| v5 | Collar ring removed; seam lines added at the cap edge and shoulder step; glossy cap and satin body; light mirrored to match the supplier |
+| v6 | Camera re-solved from the top and base ellipses; cap corner radius measured from the silhouette |
+| v7 | Point-sampled label with a 0.5 px filter. Label sharpness rose from 86% to 97% (p99 gradient) |
+| v8 | Cap and body rebuilt as a single lathed profile: a sharp cap lower edge, fine grooves, rounded top only; softer cap gloss |
+
+**v8 metrics:**
+- Silhouette IoU: 0.983.
+- Label sharpness against the supplier render: 88–99% by region.
+- Colour relative to paper: matches the artwork for green, dark type and gold.
+
+### Independent review of v8: CONDITIONAL
+**Confirmed:**
+- Construction matches: the overcap is the same diameter as the body, with a cap-edge seam and a shoulder seam, and there is no collar.
+- The label is unaltered and scaled uniformly (0.712 vs 0.708).
+- Centre registration is within 1–3 px.
+- Sharpness is 0.93–1.01 by the reviewer's own metric.
+- Colour matches the artwork.
+
+**Remaining, all fixable in the model:**
+1. Cap about 13 px short: its edge sits at y692 instead of 705.
+2. Missing step shadow line at the label top.
+3. Label edges curve where the supplier's are flat. As a result, edge text sits 7–16 px high, including the QR.
+4. Cap has a clipped highlight and its edges are too dark.
+5. Body plastic should read about 15–18 levels brighter than the label, and the base darkens.
+6. Top corner slightly tight at y255–258.
+7. Render noise.
+
+**Note on item 3:** the supplier render's cues conflict. A flat label top implies a camera at label height, while the base sag implies a higher camera. Supplier mockups may apply the label in 2D, so only physical specifications can settle the true geometry.
+
+**Not verifiable without supplier specifications:**
+- real dimensions and corner radii
+- whether the shoulder band is frosted or translucent
+- cap gloss
+- label stock and white point
+- label wrap length and seam position
+- base profile
+
+**Compliance flag** (back panel, not visible in front views): the "GMP CERTIFIED" badge and the "Manufactured in the USA" line are unverified.

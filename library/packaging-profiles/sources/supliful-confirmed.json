@@ -1,0 +1,23 @@
+{"checked":"2026-11-14","method":"GET https://supliful.com/catalog/<slug>; page h1 not 404; amounts/gross weights as printed on the listing","listings":[
+{"slug":"energy-strips","supliful_name":"Energy Strips","gross_weight":"2.2 oz / 0.14 lb / 64 g"},
+{"slug":"sleep-strips","supliful_name":"Sleep Strips","gross_weight":"2.2 oz / 0.14 lb / 64 g"},
+{"slug":"iron-strips","supliful_name":"Iron Strips","gross_weight":"2.24 oz / 0.14 lbs / 64 g"},
+{"slug":"beauty-collagen-strips","supliful_name":"Beauty + Collagen Strips","gross_weight":"2.24 oz / 0.14 lbs / 64 g"},
+{"slug":"bone-support-strips","supliful_name":"Bone Support Strips (EverLiv D3 + K2)","gross_weight":"2.24 oz / 0.14 lbs / 64 g"},
+{"slug":"magnesium-glycinate-capsules","supliful_name":"Magnesium Glycinate","gross_weight":"4 oz / 0.25 lb / 113 g"},
+{"slug":"creatine-monohydrate-powder","supliful_name":"Creatine Monohydrate","amount":"9.9 oz / 0.6 lbs / 281 g","gross_weight":"10.9 oz / 0.7 lb / 308 g"},
+{"slug":"grass-fed-collagen-peptides-powder-chocolate","supliful_name":"Grass-Fed Collagen Peptides Powder (Chocolate)","amount":"378 g (0.83 lb)","gross_weight":"17.6 oz / 1.1 lb / 499 g"},
+{"slug":"mushroom-extract-gummies","supliful_name":"Mushroom Extract Complex","amount":"60 gummies","gross_weight":"7.2 oz / 0.45 lb / 204 g"},
+{"slug":"lions-mane-mushroom-capsules","supliful_name":"Lion's Mane Mushroom","amount":"60 vegan capsules","gross_weight":"0.2 lb (90 g)"},
+{"slug":"ashwagandha-capsules","supliful_name":"Ashwagandha","amount":"60 caps","gross_weight":"2.4 oz / 0.15 lb / 68 g"},
+{"slug":"moringa-pure-capsules","supliful_name":"Moringa Pure","amount":"60 caps","gross_weight":"1.76 oz / 0.11 lb / 50 g"},
+{"slug":"berberine-capsules","supliful_name":"Berberine","amount":"60 capsules","gross_weight":"2.56 oz / 0.16 lbs / 73 g"},
+{"slug":"creatine-hydration-powder","supliful_name":"Creatine Hydration Powder (EverLiv Creatine + Electrolytes)","gross_weight":"13.6 oz / 0.85 lbs / 386 g"},
+{"slug":"slumber-soap","supliful_name":"Slumber Soap","amount":"4 oz (113 g)","gross_weight":"4.3 oz (122 g)"},
+{"slug":"charcoal-soap","supliful_name":"Charcoal Soap","amount":"4 oz (113 g)","gross_weight":"4.3 oz (122 g)"},
+{"slug":"coconut-beach-soap","supliful_name":"Coconut Beach Soap","amount":"4 oz / 113 g","gross_weight":"4.48 oz / 0.28 lbs / 127 g"},
+{"slug":"rich-sandalwood-soap","supliful_name":"Rich Sandalwood Soap","amount":"4 oz / 113 g","gross_weight":"4.48 oz / 0.28 lbs / 127 g"},
+{"slug":"aloe-cool-cucumber-soap","supliful_name":"Aloe & Cool Cucumber Soap","amount":"4 oz / 113 g","gross_weight":"4.48 oz / 0.28 lbs / 127 g"},
+{"slug":"oat-milk-honey-soap","supliful_name":"Oat Milk Honey Soap","amount":"4 oz (113 g)","gross_weight":"4.3 oz (122 g)"},
+{"slug":"peptide-eye-gel-cream","supliful_name":"Peptide Eye Gel-Cream","amount":"1 fl oz / 30 ml","gross_weight":"1.76 oz / 0.11 lbs / 50 g","blank_container_mockups":["https://cdn.sanity.io/images/g0smbdlu/production/d742e9e04d4aa2aa5b028f45ad129fc8b8be5a83-2048x2048.jpg (cap on, front)","https://cdn.sanity.io/images/g0smbdlu/production/f7bb6a2fb862e6c327377bffc7c1943624b8054e-2048x2048.jpg (cap off, pump + cap lying)","https://cdn.sanity.io/images/g0smbdlu/production/ad0efa5d2c685fb3ee849ca80491fd80712b20fe-2048x2048.jpg (cap off, pump, bottle lying)","https://cdn.sanity.io/images/g0smbdlu/production/00828b2b25a616d0e0caee54fea6b02c37e5e42d-2048x2048.jpg (three bottles lying, side views)"]}
+],"not_yet_matched_to_supliful_slug":["hydrate-strips","collagen creamer vanilla","hydrolyzed collagen peptides (unflavoured)","whey isolate chocolate/vanilla","plant protein chocolate/vanilla","EverGlo Essentials (SKU HSANE)","IgniteFX with MCT (SKU FBWM)","Bee Bread Powder","Nature's Ultra Cleanse Smoothie Green","NAD+","beta-NMN","Resveratrol 600mg","Vitamin C & Prebiotic Mushroom Blend","L-Glutamine","4 coffees"]}

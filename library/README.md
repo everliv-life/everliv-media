@@ -35,6 +35,26 @@ This library is the source for any recognizable EverLiv product in social creati
    - **Result:** any conspicuous error blocks publication, even if the label passes.
 8. **Targets are pass/fail.** A missed target (for example label sharpness under 85%) is a failure, not an approval.
 
+## Product-authenticity process (owner, Nov 14 2026 evening; MANDATORY for every product, every tool)
+
+**Every product must look like the actual EverLiv product, not a believable approximation.**
+
+1. **References first.** Before any product imagery (ChatGPT, Gemini, compositing or 3D), open the product's **Packaging Reference Profile** in `packaging-profiles/`. It contains a family file, a row in `inventory.csv` and the source links. Check every authentic source listed there:
+   - the Supliful listing, including blank-container mockups (cap-on, cap-off, side and angled)
+   - the live store images and any flat label
+   - this library
+   - open supplier questions
+
+   Never assume a resource is unavailable without checking, and never substitute a generic container.
+2. **Authenticity gate, recorded per brief before generation.** Confirm:
+   - shape and configuration against the references
+   - label wording, typography, colour and proportions from authentic artwork
+   - that the camera angle and lighting can carry this packaging with the views available
+   - the asset type: authentic imagery, or a validated 3D model
+3. **Insufficient references:** record the gap in the profile, use a safer composition (straight-on, the authentic render as-is, or a label-detail inset) and request assets via Restructuring. Never improvise packaging.
+4. **Generators never author packaging.** ChatGPT and Gemini make environments, light and disclosed people only. Any packaging they draw is discarded.
+5. **Profiles are living records.** Each fact is labelled VERIFIED, ESTIMATE or MISSING. Update a profile when supplier assets change and strike superseded facts with a date. Products with identical physical packaging share a family profile.
+
 ## Product presentation (owner standard, Nov 14 2026)
 - **Hero:** when the product is the subject, show the complete authentic container (cap, label, base) as the visual anchor, with breathing room. If it doesn't fit, scale it down or rebalance the layout. Never cut it off.
 - **Believable handling:** hands interact the way the packaging actually works and never block the branding. Scale stays realistic relative to hands and nearby objects.
