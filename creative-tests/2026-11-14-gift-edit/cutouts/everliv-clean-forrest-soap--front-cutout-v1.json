@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/catalog/fronts/everliv-clean-forrest-soap.jpg",
+ "out": "cutouts/everliv-clean-forrest-soap--front-cutout-v1.png",
+ "crop_box": [
+  310,
+  472,
+  1756,
+  1680
+ ],
+ "size": [
+  1446,
+  1208
+ ],
+ "opaque_px": 1680734,
+ "edge_band_px": 26173,
+ "interior_pixels_identical_to_source": true
+}

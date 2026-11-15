@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/catalog/fronts/everliv-sandalwood-soap.jpg",
+ "out": "cutouts/everliv-sandalwood-soap--front-cutout-v1.png",
+ "crop_box": [
+  311,
+  373,
+  1759,
+  1652
+ ],
+ "size": [
+  1448,
+  1279
+ ],
+ "opaque_px": 1781185,
+ "edge_band_px": 27023,
+ "interior_pixels_identical_to_source": true
+}

@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/catalog/fronts/everliv-aloe-cool-cucumber-soap.jpg",
+ "out": "cutouts/everliv-aloe-cool-cucumber-soap--front-cutout-v1.png",
+ "crop_box": [
+  300,
+  352,
+  1756,
+  1633
+ ],
+ "size": [
+  1456,
+  1281
+ ],
+ "opaque_px": 1768233,
+ "edge_band_px": 27046,
+ "interior_pixels_identical_to_source": true
+}

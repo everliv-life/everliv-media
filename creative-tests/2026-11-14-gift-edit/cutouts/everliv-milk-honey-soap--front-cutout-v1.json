@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/catalog/fronts/everliv-milk-honey-soap.jpg",
+ "out": "cutouts/everliv-milk-honey-soap--front-cutout-v1.png",
+ "crop_box": [
+  300,
+  378,
+  1753,
+  1670
+ ],
+ "size": [
+  1453,
+  1292
+ ],
+ "opaque_px": 1784148,
+ "edge_band_px": 27168,
+ "interior_pixels_identical_to_source": true
+}

@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/everliv-media-repo/library/caramel-coffee-dark-roast/caramel-coffee-dark-roast--front-cutout.png",
+ "out": "cutouts/everliv-caramel-coffee-dark-roast--front-cutout-v2.png",
+ "crop_box": [
+  1,
+  1,
+  725,
+  1596
+ ],
+ "size": [
+  724,
+  1595
+ ],
+ "opaque_px": 1041783,
+ "edge_band_px": 20961,
+ "interior_pixels_identical_to_source": true
+}

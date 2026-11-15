@@ -1,0 +1,17 @@
+{
+ "source": "/home/claude/catalog/fronts/coconut-beach-soap.jpg",
+ "out": "cutouts/coconut-beach-soap--front-cutout-v2.png",
+ "crop_box": [
+  317,
+  399,
+  1750,
+  1634
+ ],
+ "size": [
+  1433,
+  1235
+ ],
+ "opaque_px": 1694397,
+ "edge_band_px": 26294,
+ "interior_pixels_identical_to_source": true
+}
