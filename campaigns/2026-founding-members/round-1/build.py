@@ -41,8 +41,8 @@ def card(x,y,rot=0,scale=1):
       <div class="fm">Founding Member</div><div class="line"></div>
       <div class="meta"><span>12 months</span><span>Paid once</span></div></div>"""
 
-FINE_FEED = ("Founding price $49.99 for memberships bought through Jan 31, 2027 (ET); $69.99 from Feb 1, 2027. "
-             "12 months from activation, no automatic renewal. Up to 20% off eligible one-time purchases: most 20%, some 15%, some excluded. "
+FINE_FEED = ("Founding price $49.99 for memberships bought through Jan 31, 2027 (ET); $69.99 from Feb 1, 2027. One payment; 12 months from activation; no automatic renewal. "
+             "Member pricing applies to every eligible one-time product purchase during your membership (not Subscribe & Save): most eligible products 20% off, some 15%, some excluded. "
              "Savings depend on what you buy. Not available to residents of CA or NC. Terms at everliv.life.")
 
 def page(w,h,body,cls='green'):
@@ -54,8 +54,9 @@ A['FM-01-launch-black-friday_1080x1350'] = (1080,1350,'green',f"""
 <img class="logo" src="{u('logo-white.svg')}" style="left:84px;top:78px">
 <div class="eyebrow" style="position:absolute;left:84px;top:196px;color:{FRESH}">Black Friday · Founding Member Launch</div>
 <div class="serif" style="position:absolute;left:80px;top:248px;font-size:104px;line-height:1.0">Become a<br>Founding Member.</div>
-<div style="position:absolute;left:84px;top:500px;font-size:36px;line-height:1.35;font-weight:450;opacity:.92">A full year of member pricing.<br><b style="font-weight:700;color:#fff">$49.99, paid once.</b></div>
-<img src="{u('strips-family-6--desktop-3x2--transparent.png')}" style="position:absolute;left:150px;top:628px;width:780px">
+<div style="position:absolute;left:84px;top:492px;font-size:36px;line-height:1.35;font-weight:450;opacity:.92">A full year of member pricing.<br><b style="font-weight:700;color:#fff">$49.99, paid once.</b></div>
+<div style="position:absolute;left:84px;top:600px;font-size:25px;line-height:1.4;color:{FRESH};font-weight:600">Member prices on every eligible order, as often as you shop.</div>
+<img src="{u('strips-available-4--2x2--transparent.png')}" style="position:absolute;left:285px;top:662px;width:510px">
 <div class="fine" style="position:absolute;left:84px;right:84px;bottom:56px">{FINE_FEED}</div>
 """)
 
@@ -77,7 +78,7 @@ A['FM-02-carousel-2-what-you-get_1080x1350'] = (1080,1350,'ivory',f"""
  {''.join(f'<div style="display:flex;gap:30px;align-items:flex-start"><div class="serif" style="font-size:54px;line-height:1;color:{FRESH};width:56px;font-weight:500">{n}</div><div><div style="font-size:36px;font-weight:700;line-height:1.2">{t}</div><div style="font-size:27px;line-height:1.4;opacity:.75;margin-top:6px">{d}</div></div></div>' for n,t,d in [
   ('1','$49.99, charged once','Founding price through January 31, 2027. $69.99 from February 1, 2027.'),
   ('2','Up to 20% off eligible products','Most eligible products 20%, some 15%, some excluded. Each product page shows its member price.'),
-  ('3','Buy when you need it','For one-time purchases. No product subscription required.'),
+  ('3','Shop as often as you like','Member pricing applies every time you buy an eligible product during your 12 months. No product subscription required.'),
   ('4','No automatic renewal','Your membership ends after 12 months unless you choose to join again.')])}
 </div>
 <div class="fine" style="position:absolute;left:84px;right:84px;bottom:56px">Doesn't combine with Subscribe &amp; Save, bundles or promo codes. Not available to residents of CA or NC.</div>
@@ -97,18 +98,19 @@ A['FM-02-carousel-3-what-members-pay_1080x1350'] = (1080,1350,'ivory',f"""
  {ex('everliv-nad.jpg','NAD+','59.99','47.99',20)}
  {ex('everliv-peptide-eye-serum.jpg','Peptide Eye Gel-Cream','44.99','35.99',20)}
 </div>
-<div class="fine" style="position:absolute;left:84px;right:84px;bottom:56px">Prices on everliv.life as of Nov 16, 2026, and may change; your cart shows your exact price. Member pricing applies to eligible one-time purchases. Some products are 15% off and some are excluded.</div>
+<div class="fine" style="position:absolute;left:84px;right:84px;bottom:56px">Prices on everliv.life as of Nov 16, 2026, and may change; your cart shows your exact price. Member pricing applies each time you buy an eligible product during your membership (one-time purchases, not Subscribe &amp; Save). Some products are 15% off and some are excluded.</div>
 """)
 
 A['FM-02-carousel-4-the-math_1080x1350'] = (1080,1350,'green',f"""
 <img class="logo" src="{u('logo-white.svg')}" style="left:84px;top:78px;height:40px">
 <div class="eyebrow" style="position:absolute;left:84px;top:180px;color:{FRESH}">Is it worth it? Do the math.</div>
-<div class="serif" style="position:absolute;left:80px;top:250px;font-size:150px;line-height:1">$49.99 <span style="opacity:.5">÷</span> 20%</div>
-<div class="serif" style="position:absolute;left:80px;top:420px;font-size:150px;line-height:1"><span style="opacity:.5">=</span> <span style="color:#fff">$249.95</span></div>
+<div style="position:absolute;left:84px;top:222px;font-size:26px;opacity:.8">If every purchase is a 20%-off product:</div>
+<div class="serif" style="position:absolute;left:80px;top:280px;font-size:150px;line-height:1">$49.99 <span style="opacity:.5">÷</span> 20%</div>
+<div class="serif" style="position:absolute;left:80px;top:445px;font-size:150px;line-height:1"><span style="opacity:.5">=</span> <span style="color:#fff">$249.95</span></div>
 <div class="rule" style="position:absolute;left:84px;top:640px"></div>
-<div style="position:absolute;left:84px;right:110px;top:680px;font-size:40px;line-height:1.35;font-weight:450">At 20% off, membership covers its fee after about <b style="font-weight:750;color:#fff">$250 of eligible purchases</b> in 12 months.</div>
-<div style="position:absolute;left:84px;right:110px;top:900px;font-size:32px;line-height:1.45;opacity:.85">Shop less than that? Everyday prices or Subscribe &amp; Save may suit you better. On 15% products, it's about $333.</div>
-<div class="fine" style="position:absolute;left:84px;right:84px;bottom:56px">Savings depend on what you buy and aren't guaranteed to exceed the fee. Eligible one-time purchases only.</div>
+<div style="position:absolute;left:84px;right:110px;top:690px;font-size:38px;line-height:1.35;font-weight:450">If everything you buy is eligible for the full 20%, membership covers its fee after about <b style="font-weight:750;color:#fff">$250 of purchases</b> in 12 months.</div>
+<div style="position:absolute;left:84px;right:110px;top:900px;font-size:31px;line-height:1.45;opacity:.85">On 15% products it takes about $333, and a mix lands in between. Shop less than that? Everyday prices or Subscribe &amp; Save may suit you better.</div>
+<div class="fine" style="position:absolute;left:84px;right:84px;bottom:56px">Savings depend on what you buy and aren't guaranteed to exceed the $49.99 fee. Eligible one-time product purchases only; some products excluded.</div>
 """)
 
 A['FM-02-carousel-5-founding-price_1080x1350'] = (1080,1350,'ivory',f"""
@@ -130,7 +132,7 @@ A['FM-02-carousel-5-founding-price_1080x1350'] = (1080,1350,'ivory',f"""
 """)
 
 # ---------- C. Stories, 1080x1920 (safe area: top 250, bottom 340 kept clear) ----------
-FINE_STORY = "Founding price through Jan 31, 2027 (ET); $69.99 from Feb 1, 2027. No automatic renewal. Eligible one-time purchases; some 15%, some excluded. Not available in CA or NC."
+FINE_STORY = "Founding price through Jan 31, 2027 (ET); $69.99 from Feb 1, 2027. 12 months, no automatic renewal. Applies to eligible one-time product purchases (not Subscribe & Save); some 15%, some excluded. Not available in CA or NC."
 A['FM-03-story-1-hook_1080x1920'] = (1080,1920,'green',f"""
 <img class="logo" src="{u('logo-white.svg')}" style="left:50%;transform:translateX(-50%);top:270px;height:48px">
 <div class="eyebrow" style="position:absolute;left:0;right:0;text-align:center;top:420px;color:{FRESH}">Black Friday</div>
@@ -142,9 +144,9 @@ A['FM-03-story-2-benefits_1080x1920'] = (1080,1920,'ivory',f"""
 <img class="logo" src="{u('logo.svg')}" style="left:50%;transform:translateX(-50%);top:270px;height:44px">
 <div class="serif" style="position:absolute;left:90px;right:90px;top:400px;font-size:96px;line-height:1.02;color:{LEAF}">A full year of member pricing.</div>
 <div style="position:absolute;left:90px;right:90px;top:780px;display:grid;gap:30px">
- {''.join(f'<div style="display:flex;align-items:center;gap:26px;font-size:44px;font-weight:650"><span style="width:18px;height:18px;border-radius:50%;background:{FRESH};flex:none"></span>{t}</div>' for t in ['12 months of member pricing','Up to 20% off eligible products','One payment: $49.99','No automatic renewal'])}
+ {''.join(f'<div style="display:flex;align-items:center;gap:26px;font-size:40px;line-height:1.25;font-weight:650"><span style="width:18px;height:18px;border-radius:50%;background:{FRESH};flex:none"></span>{t}</div>' for t in ['12 months of member pricing','Every eligible order, as often as you shop','Up to 20% off (most 20%, some 15%)','One payment. No automatic renewal'])}
 </div>
-<img src="{u('strips-lineup-6-incl-sleep--row--transparent.png')}" style="position:absolute;left:40px;top:1210px;width:1000px">
+<img src="{u('strips-available-4--row--transparent.png')}" style="position:absolute;left:90px;top:1190px;width:900px">
 <div class="fine" style="position:absolute;left:90px;right:90px;top:1500px;font-size:24px">{FINE_STORY}</div>
 """)
 A['FM-03-story-3-cta_1080x1920'] = (1080,1920,'green',f"""
@@ -163,7 +165,7 @@ A['FM-04-email-header_1200x600'] = (1200,600,'green',f"""
 <div class="eyebrow" style="position:absolute;left:70px;top:150px;color:{FRESH};font-size:20px">Black Friday · Founding Members</div>
 <div class="serif" style="position:absolute;left:66px;top:190px;font-size:70px;line-height:1.02">Become a<br>Founding<br>Member.</div>
 <div style="position:absolute;left:70px;top:445px;font-size:27px;line-height:1.35">A full year of member pricing.<br><b>$49.99, paid once.</b></div>
-<img src="{u('strips-family-6--desktop-3x2--transparent.png')}" style="position:absolute;right:40px;top:140px;width:520px">
+<img src="{u('strips-available-4--2x2--transparent.png')}" style="position:absolute;right:90px;top:95px;width:440px">
 """)
 
 async def main():
