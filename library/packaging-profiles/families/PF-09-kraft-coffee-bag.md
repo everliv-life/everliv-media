@@ -11,7 +11,7 @@ Kraft stand-up gusseted bag (block-bottom), EVERLIV COFFEE print with flavour la
 Flexible bag - shape varies with fill and folding; flavour label panel on front.
 
 ## Materials, colour, finish, translucency, reflectivity
-Kraft paper (visual); clear/foil inner not documented.
+Kraft (visual); clear/foil inner not documented. Any applied label: HIGH-GLOSS BOPP (VERIFIED, supplier). Whether the flavour panel is an applied label or direct print on the carton/bag: MISSING.
 
 ## Dimensions and proportions
 | Item | Value | Status | Source |

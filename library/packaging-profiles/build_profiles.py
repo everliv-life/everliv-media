@@ -1,4 +1,5 @@
 """Generate EverLiv Packaging Reference Profiles (families + per-product inventory) from structured data.
+Supplier confirmations 2026-11-15 (Gino, Supliful, support@everliv.life thread "Order #1096"): labels high-gloss BOPP only; no extra photos (sample order needed); no 3D models/mockups; photos showing our labels may be used.
 Sources: live store products.json (everliv.life, fetched 2026-11-14), media library, Supliful catalog listings (checked 2026-11-14)."""
 import json, os, csv, glob
 from collections import OrderedDict
@@ -17,7 +18,7 @@ def fam(fid, name, **k): FAMILIES[fid] = dict(id=fid, name=name, **k)
 fam('PF-01', 'Airless pump bottle, 30 ml (overcap)',
     shape='Straight cylinder, white; airless pump under a separate full-diameter overcap; flat base with small rounded edge. No protruding collar: overcap meets body at a fine seam (two seam lines), body continues white to the label.',
     construction='Overcap (glossy) ends ~29% down from top; fine seam lines at cap edge and shoulder step; pump head with angled nozzle and stepped collar visible only with cap off (Supliful cap-off mockups). Front-render proportion H/D ~3.59 (silhouette 432 x 1550 px).',
-    materials='Cap: glossy white plastic (visual). Body: satin white plastic (visual). Label: matte paper, slightly cooler white than plastic (visual). Opacity of cap/collar not documented.',
+    materials='Cap: glossy white plastic (visual). Body: satin white plastic (visual). Label: HIGH-GLOSS BOPP film (VERIFIED, supplier); slightly cooler white than plastic (visual). Supplier label file received (Peptide Eye Gel-Cream-label.pdf, 3.75 x 3.00 in, 600 ppi raster) and content-identical to our flat label. Opacity of cap/collar not documented.',
     dims=[('Volume', '1 fl oz / 30 ml', V, 'Supliful listing + label'), ('Gross weight', '1.76 oz / 50 g', V, 'Supliful listing'),
           ('Height, diameter, cap height', 'H/D ~3.59; cap ~29% of height', E, 'measured from supplier front render'),
           ('Label wrap', '~315 deg, label 1700x1360 artwork px', E, '3D accuracy test, Nov 14')],
@@ -29,18 +30,18 @@ fam('PF-01', 'Airless pump bottle, 30 ml (overcap)',
 fam('PF-02', 'Square hinged metal tin, oral strips (30 strips in sachets)',
     shape='Square tin with rounded corners, black metal body, printed lid label on top face; hinged lid; contains individual foil sachets ("ORAL STRIP" generic sachets).',
     construction='Two-part hinged tin (lid + base); lid label covers top face inside a black rim; rim thickness and lid step visible in angled views; inner sachets are supplier-standard and not customised.',
-    materials='Black (painted/coated) metal tin; printed paper or film lid label (finish unknown); sachets: printed foil, colour varies by product.',
+    materials='Black (painted/coated) metal tin; lid label: HIGH-GLOSS BOPP (VERIFIED, supplier); sachets: printed foil, colour varies by product.',
     dims=[('Contents', '30 oral strips', V, 'labels'), ('Gross weight', '2.2-2.24 oz / 64 g', V, 'Supliful listings'),
           ('Tin width/height/depth, corner radius, rim width', 'square, ~1:1 face', E, 'front renders'), ('Hinge & lid step', 'visible in angled renders', E, 'store/Supliful angled renders')],
     label='Lid-label artwork per product (logo, product name, flavour, three feature words incl. "Natural Extracts", DIETARY SUPPLEMENT 30 ORAL STRIPS). Energy has a flat production label in library.',
     refs='Store: front, open tin, stack, tin+packet, packet+strip, facts. Supliful: blank lid front, open tins, sachets, tumbling tins.',
-    gaps='Tin dimensions & corner radius; rim/lid depth; lid label finish (gloss/matte) and print files for 5 of 6 products; sachet artwork per flavour; back of tin.',
+    gaps='Tin dimensions & corner radius; rim/lid depth; print files for 5 of 6 products; sachet artwork per flavour; back of tin.',
     special='Front-only renders read flat in angled scenes (Nov 14 tests): needs thickness, rim highlight, metal response. "Natural Extracts" unverified - blocks strip-tin content. Sleep Strips excluded from promotion.',
     safe='Straight-on, eye-level, soft frontal light; or use Supliful/store angled renders as-is.')
 fam('PF-03', 'Round capsule bottle, white, screw cap (60-120 ct)',
     shape='White round supplement bottle with shoulder, short neck and white ribbed screw cap; wrap-around label on body.',
     construction='Bottle + screw cap (+ likely induction seal); label panel on straight body section; Supplement Facts on side panel.',
-    materials='White plastic bottle (HDPE likely, not documented); white cap; label finish not documented (appears matte with metallic/colour series band).',
+    materials='White plastic bottle (HDPE likely, not documented); white cap; label: HIGH-GLOSS BOPP (VERIFIED, supplier); the series band is a PRINTED colour band, not metallic/foil (VERIFIED: no metallic/foil finishes offered).',
     dims=[('Counts', '60 caps (Lion\'s Mane, Ashwagandha, Moringa, Berberine); others per label', V, 'Supliful listings / labels'), ('Gross weights', '45-113 g', V, 'store/Supliful'),
           ('Bottle size(s)', 'likely 2-3 sizes (gross weight 45-113 g)', E, 'unverified - may differ between products'), ('Label height/wrap', '-', M, '')],
     label='Series design: logo, series band ("Premium Botanical/Longevity Series"), product name, descriptor, count; colour varies (white, burgundy, blue).',
@@ -77,16 +78,16 @@ fam('PF-08', 'Large protein tub (whey / plant)',
     gaps='Supliful listing match, dims, label files.', special='-', safe='Authentic renders.')
 fam('PF-09', 'Kraft coffee bag, 12 oz / 340 g',
     shape='Kraft stand-up gusseted bag (block-bottom), EVERLIV COFFEE print with flavour label panel; angled render shows a carton/sleeve form.',
-    construction='Flexible bag - shape varies with fill and folding; flavour label panel on front.', materials='Kraft paper (visual); clear/foil inner not documented.',
+    construction='Flexible bag - shape varies with fill and folding; flavour label panel on front.', materials='Kraft (visual); clear/foil inner not documented. Any applied label: HIGH-GLOSS BOPP (VERIFIED, supplier). Whether the flavour panel is an applied label or direct print on the carton/bag: MISSING.',
     dims=[('Net weight', '12 oz / 340 g', V, 'label'), ('Gross', '383 g', V, 'store'), ('Bag dims', '-', M, '')],
     label='Flavour panel (FLAVOR / roast / tasting notes / bean form / Net Wt); flat label images in library.', refs='Store: bag front, angled, with beans, flat label; Supliful listings exist (slugs confirmed for 4 flavours by name).',
     gaps='Bag dims, gusset, valve, carton vs bag configuration (angled render differs), label files.', special='Flexible packaging: no 3D model; authentic renders only. Clarify bag vs carton.', safe='Authentic renders only.')
 fam('PF-10', 'Bar soap with paper band label, 4 oz / 113 g',
     shape='Rectangular handmade soap bar; paper band/sleeve label around the middle; soap colour/texture visible at ends.',
-    construction='Natural bar (variable surface); printed band.', materials='Soap (handmade, each bar varies); paper band (finish unknown, gold foil corner visual).',
+    construction='Natural bar (variable surface); printed band.', materials='Soap (handmade, each bar varies); band label: HIGH-GLOSS BOPP (VERIFIED, supplier, assuming the band is a Supliful label); gold corner is a PRINTED gold-look graphic - NOT foil (VERIFIED: foil not offered).',
     dims=[('Net weight', '4 oz / 113 g', V, 'Supliful'), ('Gross', '4.3-4.48 oz / 122-127 g', V, 'Supliful'), ('Bar & band dims', '-', M, '')],
     label='Band label per scent (logo, name, descriptor, Net Wt) with full back text; flat label images for all 6 in library/store.', refs='Store: bar front, flat label; Supliful: blank bars and bands, stacked views.',
-    gaps='Bar/band dims, band finish (gold foil?), soap colour per batch.', special='Natural product: soap texture/colour must match the specific scent; no invented soap colours.', safe='Authentic renders; flat label usable for 3D band mapping once dims known.')
+    gaps='Bar/band dims, physical sample for sheen/colour, soap colour per batch.', special='Natural product: soap texture/colour must match the specific scent; no invented soap colours.', safe='Authentic renders; flat label usable for 3D band mapping once dims known.')
 
 # product -> family, supliful slug, notes
 P = OrderedDict([

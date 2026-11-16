@@ -11,7 +11,7 @@ Straight cylinder, white; airless pump under a separate full-diameter overcap; f
 Overcap (glossy) ends ~29% down from top; fine seam lines at cap edge and shoulder step; pump head with angled nozzle and stepped collar visible only with cap off (Supliful cap-off mockups). Front-render proportion H/D ~3.59 (silhouette 432 x 1550 px).
 
 ## Materials, colour, finish, translucency, reflectivity
-Cap: glossy white plastic (visual). Body: satin white plastic (visual). Label: matte paper, slightly cooler white than plastic (visual). Opacity of cap/collar not documented.
+Cap: glossy white plastic (visual). Body: satin white plastic (visual). Label: HIGH-GLOSS BOPP film (VERIFIED, supplier); slightly cooler white than plastic (visual). Supplier label file received (Peptide Eye Gel-Cream-label.pdf, 3.75 x 3.00 in, 600 ppi raster) and content-identical to our flat label. Opacity of cap/collar not documented.
 
 ## Dimensions and proportions
 | Item | Value | Status | Source |

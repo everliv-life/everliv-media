@@ -11,7 +11,7 @@ Square tin with rounded corners, black metal body, printed lid label on top face
 Two-part hinged tin (lid + base); lid label covers top face inside a black rim; rim thickness and lid step visible in angled views; inner sachets are supplier-standard and not customised.
 
 ## Materials, colour, finish, translucency, reflectivity
-Black (painted/coated) metal tin; printed paper or film lid label (finish unknown); sachets: printed foil, colour varies by product.
+Black (painted/coated) metal tin; lid label: HIGH-GLOSS BOPP (VERIFIED, supplier); sachets: printed foil, colour varies by product.
 
 ## Dimensions and proportions
 | Item | Value | Status | Source |
@@ -35,7 +35,7 @@ Store: front, open tin, stack, tin+packet, packet+strip, facts. Supliful: blank 
 | EverLiv Hydrate Strips | EVERL-HS-6961 | https://everliv.life/products/everliv-hydrate-strips | TO CONFIRM | library/hydrate-strips/ (8 files) | no |
 | EverLiv Iron Strips | EVERL-IS-0087 | https://everliv.life/products/everliv-iron-strips | https://supliful.com/catalog/iron-strips | library/iron-strips/ (6 files) | no |
 | EverLiv D3 + K2 Strips | EVERL-BSS-6731 | https://everliv.life/products/everliv-k2-d3-strips | https://supliful.com/catalog/bone-support-strips | library/k2-d3-strips/ (5 files) | no |
-| EverLiv Collagen Strips | EVERL-BCS-36BE | https://everliv.life/products/everliv-collagen-strips | https://supliful.com/catalog/beauty-collagen-strips | library/collagen-strips/ (7 files) | no |
+| EverLiv Collagen Strips | EVERL-BCS-36BE | https://everliv.life/products/everliv-collagen-strips | https://supliful.com/catalog/beauty-collagen-strips | library/collagen-strips/ (9 files) | no |
 
 ## Verified vs estimated vs missing
 - VERIFIED = printed on the label or stated on the Supliful listing / store data.
@@ -43,7 +43,7 @@ Store: front, open tin, stack, tin+packet, packet+strip, facts. Supliful: blank 
 - MISSING = not available in any accessible source.
 
 ## Missing information (request via Restructuring)
-Tin dimensions & corner radius; rim/lid depth; lid label finish (gloss/matte) and print files for 5 of 6 products; sachet artwork per flavour; back of tin.
+Tin dimensions & corner radius; rim/lid depth; print files for 5 of 6 products; sachet artwork per flavour; back of tin.
 
 ## Special handling / open authenticity or label-compliance questions
 Front-only renders read flat in angled scenes (Nov 14 tests): needs thickness, rim highlight, metal response. "Natural Extracts" unverified - blocks strip-tin content. Sleep Strips excluded from promotion.

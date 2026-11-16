@@ -11,7 +11,7 @@ White round supplement bottle with shoulder, short neck and white ribbed screw c
 Bottle + screw cap (+ likely induction seal); label panel on straight body section; Supplement Facts on side panel.
 
 ## Materials, colour, finish, translucency, reflectivity
-White plastic bottle (HDPE likely, not documented); white cap; label finish not documented (appears matte with metallic/colour series band).
+White plastic bottle (HDPE likely, not documented); white cap; label: HIGH-GLOSS BOPP (VERIFIED, supplier); the series band is a PRINTED colour band, not metallic/foil (VERIFIED: no metallic/foil finishes offered).
 
 ## Dimensions and proportions
 | Item | Value | Status | Source |

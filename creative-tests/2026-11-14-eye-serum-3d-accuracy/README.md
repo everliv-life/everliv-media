@@ -109,3 +109,12 @@ Geometry was solved from the supplier render:
 - base profile
 
 **Compliance flag** (back panel, not visible in front views): the "GMP CERTIFIED" badge and the "Manufactured in the USA" line are unverified.
+
+## v9 (Nov 15, late): label-finish correction from supplier facts (internal only)
+- **Why:** on Nov 15 Supliful confirmed that every label is high-gloss polypropylene (BOPP), and that matte, metallic, foil and pearlescent finishes are not offered. v1–v8 modelled the label as matte paper (roughness 0.85), so their label finish is **inaccurate**. v1–v8 are preserved unchanged.
+- **Change 1, label material:** glossy film (roughness 0.18, clear coat 0.8 with coat roughness 0.04). The finish is verified; the exact values are rendering estimates.
+- **Change 2, label texture:** now the supplier's own file, `Peptide Eye Gel-Cream-label.pdf`. Its embedded 2250×1800 raster was extracted losslessly. It has the same aspect ratio as the earlier crop and is content-identical, so the UV mapping is unchanged.
+- **Unchanged:** geometry, camera and the cap and body materials are the frozen v8 values. No new geometric assumptions were made.
+- **Light scale:** LS=0.27, calibrated so the unchanged cap matches v8 (cap mean 225.4 in both renders). The label mean is 203.1 in v8 and 203.8 in v9.
+- **Result:** the label now shows specular film highlights. In this all-white studio the gloss coat also slightly veils the dark inks; that effect depends on the environment.
+- **Status:** PROVISIONAL, internal. It has not been independently reviewed. Dimensions are still unverified.

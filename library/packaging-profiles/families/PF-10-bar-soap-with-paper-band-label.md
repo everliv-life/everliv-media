@@ -11,7 +11,7 @@ Rectangular handmade soap bar; paper band/sleeve label around the middle; soap c
 Natural bar (variable surface); printed band.
 
 ## Materials, colour, finish, translucency, reflectivity
-Soap (handmade, each bar varies); paper band (finish unknown, gold foil corner visual).
+Soap (handmade, each bar varies); band label: HIGH-GLOSS BOPP (VERIFIED, supplier, assuming the band is a Supliful label); gold corner is a PRINTED gold-look graphic - NOT foil (VERIFIED: foil not offered).
 
 ## Dimensions and proportions
 | Item | Value | Status | Source |
@@ -42,7 +42,7 @@ Store: bar front, flat label; Supliful: blank bars and bands, stacked views.
 - MISSING = not available in any accessible source.
 
 ## Missing information (request via Restructuring)
-Bar/band dims, band finish (gold foil?), soap colour per batch.
+Bar/band dims, physical sample for sheen/colour, soap colour per batch.
 
 ## Special handling / open authenticity or label-compliance questions
 Natural product: soap texture/colour must match the specific scent; no invented soap colours.
