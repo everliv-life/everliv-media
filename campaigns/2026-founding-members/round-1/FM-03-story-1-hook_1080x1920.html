@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset='utf-8'><style>:root{--w:1080px;--h:1920px}
+@font-face{font-family:'NR';src:url(file:///home/claude/fm/src/newsreader-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:'NR';src:url(file:///home/claude/fm/src/newsreader-latin-400-italic.woff2);font-weight:400;font-style:italic}
+@font-face{font-family:'NR';src:url(file:///home/claude/fm/src/newsreader-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:'FT';src:url(file:///home/claude/fm/src/figtree-latin-wght-normal.woff2);font-weight:300 900}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:var(--w);height:var(--h);overflow:hidden;font-family:FT;-webkit-font-smoothing:antialiased}
+.frame{position:relative;width:var(--w);height:var(--h);overflow:hidden}
+.green{background:#2A422A;color:#E9E4DF}
+.ivory{background:#E9E4DF;color:#1E2B1E}
+.serif{font-family:NR;font-weight:400;letter-spacing:-0.015em}
+.eyebrow{font-family:FT;font-weight:650;font-size:24px;letter-spacing:.2em;text-transform:uppercase}
+.fine{font-family:FT;font-weight:450;font-size:22px;line-height:1.4;opacity:.78}
+.logo{position:absolute;height:50px}
+.rule{height:2px;background:#8BC343;width:72px}
+.card{position:absolute;width:640px;height:400px;border-radius:30px;padding:44px 48px;
+  background:linear-gradient(140deg,#355235 0%,#2A422A 55%,#1f331f 100%);color:#E9E4DF;
+  box-shadow:0 40px 80px -30px rgba(20,35,20,.55),0 0 0 1px rgba(255,255,255,.06) inset}
+.card .top{display:flex;justify-content:space-between;align-items:center}
+.card .club{font-size:19px;font-weight:650;letter-spacing:.22em;text-transform:uppercase;opacity:.85}
+.card .fm{position:absolute;left:48px;bottom:92px;font-family:NR;font-style:italic;font-size:64px;line-height:1}
+.card .meta{position:absolute;left:48px;right:48px;bottom:40px;display:flex;justify-content:space-between;
+  font-size:21px;font-weight:550;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+.card .line{position:absolute;left:48px;bottom:76px;width:56px;height:2px;background:#8BC343}
+.tile{background:#F7F7F7;border-radius:22px;overflow:hidden;box-shadow:0 18px 40px -24px rgba(30,43,30,.45)}
+.tile img{width:100%;height:100%;object-fit:cover;display:block}
+.price-old{text-decoration:line-through;opacity:.55}
+</style></head><body><div class='frame green'>
+<img class="logo" src="file:///home/claude/fm/src/logo-white.svg" style="left:50%;transform:translateX(-50%);top:270px;height:48px">
+<div class="eyebrow" style="position:absolute;left:0;right:0;text-align:center;top:420px;color:#8BC343">Black Friday</div>
+<div class="serif" style="position:absolute;left:0;right:0;text-align:center;top:480px;font-size:112px;line-height:1.0">Become a<br>Founding<br>Member.</div>
+<div class="card" style="left:220px;top:900px;transform:rotate(-5deg) scale(1);transform-origin:center">
+      <div class="top"><img src="file:///home/claude/fm/src/logo-white.svg" style="height:40px"><div class="club">Member Price Club</div></div>
+      <div class="fm">Founding Member</div><div class="line"></div>
+      <div class="meta"><span>12 months</span><span>Paid once</span></div></div>
+<div style="position:absolute;left:0;right:0;text-align:center;top:1390px;font-size:40px;font-weight:600">$49.99, paid once.</div>
+</div></body></html>
