@@ -1,6 +1,11 @@
 # Strip-tin lineups (Marketing, Nov 16, 2026): recommended replacement for the clipped homepage strip image
 
-**Status:** PROVISIONAL. This is a recommendation for Restructuring to place; Marketing has not uploaded anything to Shopify.
+**Status:** PROVISIONAL.
+
+> **Nov 16 owner direction:** the primary strip-family image must include all six varieties, including Sleep (sold out, not represented as in stock).
+> - **Recommended:** `strips-family-6--desktop-3x2--*` (1920×1280) and `strips-family-6--mobile-2x3--*` (1080×1620), built by `compose_six_family.py`.
+> - The earlier "hold" on the 6-tin files is lifted for family imagery.
+> - Sleep's source is the store supplier render, a palette PNG; the full-colour original has been requested via Restructuring. This is a recommendation for Restructuring to place; Marketing has not uploaded anything to Shopify.
 
 ## Source and compositing
 - **Source pixels:** authentic supplier front renders only.

@@ -2,6 +2,8 @@
 
 **Marketing has made NO live changes.**
 
+> **Update, Nov 16:** rows R1 and R5 are superseded by `restructuring-handoff-brand-direction-2026-11-16.md` (owner direction, Nov 15 11:52 PM ET). R1: Testosterone & NAD+ stays prominent but is not first. R5: use the six-tin family image, including Sleep.
+
 Everything below is a recommendation for Restructuring to implement, or to defer to the owner and attorney. Screenshots are in the `everliv-media` repo at `creative-tests/2026-11-16-site-audit/shots/`.
 
 The site was checked at 04:00–04:15 UTC on Nov 16 (11:00–11:15 PM ET, Nov 15). Some items may already be in your queue: the "Member price · coming soon" fix and Ways to Save. Those are marked **(in your queue)**.

@@ -3,6 +3,13 @@
 
 > **Correction, 11:35 PM ET Nov 15:** an earlier version called Testosterone & NAD+ Support "discontinued". That was wrong. Jeff confirms the product is **not discontinued**. Quantus may have put EverLiv's fulfillment on a temporary hold over an unpaid invoice, which Jeff plans to pay Nov 16; that hold is owner-reported and unconfirmed. The "discontinued" label was an assumption drawn from the Nov 11 handoff, and the evidence trail is in §21. Marketing made no change to the product, and none should be made on the basis of this report.
 
+> **Update, Nov 15 11:52 PM ET (owner direction):**
+> - Testosterone & NAD+ stays prominent as a premium product (not first).
+> - Featured order: strips → Testosterone & NAD+ → Creatine → Creatine+ Electrolytes.
+> - The strip-family image includes all six tins, including Sleep (sold out, shown as such).
+>
+> §5 and §18 below are superseded by `brand-direction-six-strip-family-2026-11-16.md`.
+
 **Marketing made no live changes.** That means no edits to Shopify, Metricool, email, ads or any supplier contact.
 
 ---
@@ -32,7 +39,7 @@ All three are fixable in Restructuring's queue with copy already drafted here. T
 | B2 | **High** | On the mobile hero, the headline overlaps the product's label text | shot 09 |
 | B3 | **High** | The hero strips image clips the Collagen tin at the right edge | shot 01 |
 | B4 | **High** | "Start here" leads with member prices while enrollment is closed (in Restructuring's queue) | shots 04, 10 |
-| B5 | **Medium** | "The EverLiv difference" banner shows the sold-out Sleep tin plus generic "ORAL STRIP" sachets and fruit (not our packaging) | shot 06 |
+| B5 | **Medium** | "The EverLiv difference" banner shows the sold-out Sleep tin plus "ORAL STRIP" sachets and fruit. *Corrected Nov 16: the sachets match the supplier's own sachet artwork; per-variety colour matching is unverified* | shot 06 |
 | B6 | **Medium** | The Shop by Need and Solutions people photos are of unknown origin and rights (agency or AI) | shot 05 |
 | B7 | **Medium** | The Eye Serum main image is tiny in frame (about 15%); the Collagen Creamer and Chocolate Collagen backgrounds are grey | shot 12 |
 | B8 | **Medium** | The Eye Serum block shows "5.0 · 1 review" | shot 07 |
