@@ -270,4 +270,13 @@ It does not touch checkout, pricing or membership mechanics.
 - **Active.** Quantus-fulfilled; not a Supliful product. Owner-confirmed, Nov 15.
 - **Possible temporary Quantus hold** until the invoice is paid (owner-reported).
 - **Marketing treatment:** the product isn't promoted in social or email until Jeff decides whether the Nov 11 exclusion still applies. Its hormone claims stay on the attorney list regardless of status.
-- **Process fix:** supplier status labels now need a dated source. "Not migrated", "on hold" and "discontinued" are tracked as separate fields. This is logged in `creative-error-log.md`.
+- **Process fix:** supplier status labels now need a dated source. "Not migrated", "on hold" and "discontinued" are tracked as separate fields.
+- **Docs corrected:**
+  - this report
+  - the claims audit
+  - the Restructuring handoff
+  - the SEO plan
+  - the materials pack
+  - `restructuring-request-2026-11-14-evening.md`
+  - the repo `BEST-VERIFIED-IMAGERY.md`
+- **Older records with the old label:** `production-readiness-shortlist-2026-11-14.md` and `marketing-status-2026-11-11.md` still say "discontinued". They are superseded by this section.
