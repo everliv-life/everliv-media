@@ -1,0 +1,389 @@
+[
+ {
+  "handle": "everliv-clean-forrest-soap",
+  "title": "EverLiv Slumber Soap",
+  "body_words": 238,
+  "LEGAL/disease-treatment": "longevity",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "boost, immediately",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-charcoal-soap",
+  "title": "EverLiv Charcoal Soap",
+  "body_words": 212,
+  "LEGAL/disease-treatment": "cleanse, cleanses, longevity",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "immediately, maximum, optimal, powerful",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "coconut-beach-soap",
+  "title": "EverLiv Coconut Beach Soap",
+  "body_words": 235,
+  "LEGAL/disease-treatment": "cleanse, longevity",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "immediately, sensitive skin",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-sandalwood-soap",
+  "title": "EverLiv Rich Sandalwood Soap",
+  "body_words": 265,
+  "LEGAL/disease-treatment": "longevity",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "all skin types, immediately, sensitive skin",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-aloe-cool-cucumber-soap",
+  "title": "EverLiv Aloe & Cool Cucumber Soap",
+  "body_words": 255,
+  "LEGAL/disease-treatment": "cleanse, healthy, longevity",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "all skin types, enhances, immediately, revitalized, sensitive skin",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-milk-honey-soap",
+  "title": "EverLiv Oat Milk Honey Soap",
+  "body_words": 242,
+  "LEGAL/disease-treatment": "longevity",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "immediately, sensitive skin",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-hazelnut-coffee-medium-roast",
+  "title": "EverLiv Hazelnut Coffee (Medium Roast)",
+  "body_words": 166,
+  "LEGAL/disease-treatment": "",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-cocoa-coffee-medium-roast",
+  "title": "EverLiv Cocoa Coffee (Medium Roast)",
+  "body_words": 153,
+  "LEGAL/disease-treatment": "",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-mushroom-coffee-medium-roast",
+  "title": "EverLiv Mushroom Coffee (Medium Roast)",
+  "body_words": 159,
+  "LEGAL/disease-treatment": "",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-caramel-coffee-dark-roast",
+  "title": "EverLiv Caramel Coffee (Dark Roast)",
+  "body_words": 184,
+  "LEGAL/disease-treatment": "",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-peptide-eye-serum",
+  "title": "EverLiv Peptide Eye Serum",
+  "body_words": 223,
+  "LEGAL/disease-treatment": "health",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "all skin types, plumps, reduces, revitalize, revitalized, sensitive skin, youthful",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-collagen-creamer-vanilla",
+  "title": "EverLiv Collagen Creamer (Vanilla)",
+  "body_words": 202,
+  "LEGAL/disease-treatment": "cure, disease, healthy, longevity, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-everglo-essentials",
+  "title": "EverLiv EverGlow Essentials",
+  "body_words": 297,
+  "LEGAL/disease-treatment": "cure, disease, doctor, healthcare, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "immediately",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-ignitefx-with-mct",
+  "title": "EverLiv IgniteFX with MCT",
+  "body_words": 370,
+  "LEGAL/disease-treatment": "cure, diabetic, disease, healthcare, healthy, metabolism, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-vitamin-c-prebiotic-mushroom-blend",
+  "title": "EverLiv Vitamin C & Prebiotic Mushroom Blend",
+  "body_words": 312,
+  "LEGAL/disease-treatment": "cure, disease, health, immune, prevent, treat",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "absorbed, bioavailability, bioavailable, immediately, maximum",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-bee-bread-powder",
+  "title": "EverLiv Bee Bread Powder",
+  "body_words": 208,
+  "LEGAL/disease-treatment": "cure, disease, health, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "boosting, optimal, powerful",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-natures-ultra-cleanse-smoothie-greens",
+  "title": "EverLiv Nature's Ultra Cleanse Smoothie Greens",
+  "body_words": 291,
+  "LEGAL/disease-treatment": "cleanse, cure, disease, health, immune, physician, prevent, treat",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "boosting, optimal",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-collagen-peptides-powder-chocolate",
+  "title": "EverLiv Collagen Peptides Powder (Chocolate)",
+  "body_words": 219,
+  "LEGAL/disease-treatment": "cure, disease, healthy, longevity, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "boost",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-collagen-peptides-powder",
+  "title": "EverLiv Collagen Peptides Powder",
+  "body_words": 222,
+  "LEGAL/disease-treatment": "cure, disease, health, healthy, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "absorbed, boost",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-mushroom-extract-gummies",
+  "title": "EverLiv Mushroom Extract Gummies",
+  "body_words": 296,
+  "LEGAL/disease-treatment": "cure, disease, healthcare, healthy, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-lions-mane-mushroom",
+  "title": "EverLiv Lion's Mane Mushroom",
+  "body_words": 194,
+  "LEGAL/disease-treatment": "cure, disease, health, healthy, prevent, treat",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-pure-creatine-monohydrate",
+  "title": "EverLiv Pure Creatine Monohydrate",
+  "body_words": 234,
+  "LEGAL/disease-treatment": "clinical, cure, disease, health, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "optimal",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-pure-l-glutamine-powder",
+  "title": "EverLiv Pure L-Glutamine Powder",
+  "body_words": 327,
+  "LEGAL/disease-treatment": "cure, disease, health, healthy, immune, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "eliminating, enhance",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-sleep-strips",
+  "title": "EverLiv Sleep Strips",
+  "body_words": 263,
+  "LEGAL/disease-treatment": "cure, disease, health, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "boost, maximum",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "energy-strips",
+  "title": "EverLiv Energy Strips",
+  "body_words": 286,
+  "LEGAL/disease-treatment": "cure, disease, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "absorbed, boost, immediately, maximum",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-hydrate-strips",
+  "title": "EverLiv Hydrate Strips",
+  "body_words": 347,
+  "LEGAL/disease-treatment": "cure, disease, health, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "maximum",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-pure-whey-protein-isolate-chocolate",
+  "title": "EverLiv Pure Whey Protein Isolate (Chocolate)",
+  "body_words": 380,
+  "LEGAL/disease-treatment": "cure, disease, health, healthcare, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best, enhance, maximum, optimal, reduces",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-pure-whey-protein-isolate-vanilla",
+  "title": "EverLiv Pure Whey Protein Isolate (Vanilla)",
+  "body_words": 382,
+  "LEGAL/disease-treatment": "cure, disease, health, healthcare, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best, enhance, maximum, optimal, reduces",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-pure-plant-protein-chocolate",
+  "title": "EverLiv Pure Plant Protein (Chocolate)",
+  "body_words": 398,
+  "LEGAL/disease-treatment": "cure, disease, doctor, health, healthcare, healthy, metabolism, physician, prevent, treat, weight management",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best, enhance, enhanced, immediately, powerful",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-pure-plant-protein-vanilla",
+  "title": "EverLiv Pure Plant Protein (Vanilla)",
+  "body_words": 373,
+  "LEGAL/disease-treatment": "cure, disease, health, healthcare, healthier, healthy, metabolism, physician, prevent, treat, weight management",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best, enhance, enhanced, powerful",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-ashwagandha-black-pepper",
+  "title": "EverLiv Ashwagandha + Black Pepper",
+  "body_words": 188,
+  "LEGAL/disease-treatment": "cure, disease, health, healthcare, physician, prevent, treat",
+  "CERT/origin": "organic",
+  "EFFICACY/absolute": "best, powerful",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-pure-moringa",
+  "title": "EverLiv Pure Moringa",
+  "body_words": 249,
+  "LEGAL/disease-treatment": "cure, disease, healthcare, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-resveratrol-600mg",
+  "title": "EverLiv Resveratrol 600mg",
+  "body_words": 204,
+  "LEGAL/disease-treatment": "cholesterol, cure, disease, health, healthcare, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-nad",
+  "title": "EverLiv NAD+",
+  "body_words": 302,
+  "LEGAL/disease-treatment": "cure, disease, health, healthcare, healthy, immune, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best, optimal",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-magnesium-glycinate",
+  "title": "EverLiv Magnesium Glycinate",
+  "body_words": 199,
+  "LEGAL/disease-treatment": "blood pressure, cure, disease, healthcare, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "bioavailable",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-iron-strips",
+  "title": "EverLiv Iron Strips",
+  "body_words": 312,
+  "LEGAL/disease-treatment": "cure, disease, doctor, health, healthy, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "immediately, maximum",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-k2-d3-strips",
+  "title": "EverLiv D3 + K2 Strips",
+  "body_words": 271,
+  "LEGAL/disease-treatment": "cure, disease, health, healthy, metabolism, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "maximum",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-collagen-strips",
+  "title": "EverLiv Collagen Strips",
+  "body_words": 318,
+  "LEGAL/disease-treatment": "health, healthy, physician",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "maximum",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-granular-berberine",
+  "title": "EverLiv Granular Berberine",
+  "body_words": 322,
+  "LEGAL/disease-treatment": "cholesterol, cure, disease, health, healthcare, healthy, metabolism, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best, optimal",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-\u03b2-nmn",
+  "title": "EverLiv \u03b2-NMN",
+  "body_words": 317,
+  "LEGAL/disease-treatment": "cure, disease, health, healthcare, healthy, longevity, metabolism, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "best",
+  "SHIP/SUB/PRICE": "off"
+ },
+ {
+  "handle": "everliv-creatine-electrolytes",
+  "title": "EverLiv Creatine+ Electrolytes",
+  "body_words": 291,
+  "LEGAL/disease-treatment": "cure, disease, physician, prevent, treat",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "ultimate-bundle",
+  "title": "The Ultimate Bundle \u2014 Any 3 Strips",
+  "body_words": 62,
+  "LEGAL/disease-treatment": "",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "",
+  "SHIP/SUB/PRICE": ""
+ },
+ {
+  "handle": "everliv-testosterone-nad-support",
+  "title": "EverLiv Testosterone & NAD+ Support",
+  "body_words": 33,
+  "LEGAL/disease-treatment": "health, healthy, metabolism, testosterone",
+  "CERT/origin": "",
+  "EFFICACY/absolute": "",
+  "SHIP/SUB/PRICE": ""
+ }
+]
