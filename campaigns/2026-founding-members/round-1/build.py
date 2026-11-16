@@ -86,16 +86,20 @@ A['FM-02-carousel-2-what-you-get_1080x1350'] = (1080,1350,'ivory',f"""
 """)
 
 def ex(img,name,reg,mem,pct):
-    return f"""<div style="display:flex;gap:34px;align-items:center">
-     <div class="tile" style="width:260px;height:260px;flex:none"><img src="{u(img)}"></div>
-     <div><div style="font-size:34px;font-weight:700;line-height:1.2">{name}</div>
-       <div style="margin-top:14px;font-size:30px">Everyday ${reg}</div>
-       <div class="serif" style="font-size:74px;line-height:1.05;color:{LEAF}">${mem} <span style="font-family:FT;font-size:26px;font-weight:650;letter-spacing:.08em;color:{INK};opacity:.7">MEMBER · {pct}% OFF</span></div></div></div>"""
+    return f"""<div style="display:flex;gap:40px;align-items:center">
+     <div class="tile" style="width:270px;height:270px;flex:none"><img src="{u(img)}"></div>
+     <div style="flex:1"><div style="font-size:38px;font-weight:750;line-height:1.15">{name}</div>
+       <div style="display:flex;gap:44px;align-items:flex-end;margin-top:20px">
+         <div><div style="font-size:21px;font-weight:700;letter-spacing:.14em;opacity:.6">EVERYDAY</div>
+              <div style="font-size:44px;font-weight:500;line-height:1.1;margin-top:10px;margin-bottom:10px;opacity:.6">${reg}</div></div>
+         <div><div style="font-size:21px;font-weight:750;letter-spacing:.14em;color:{LEAF}">MEMBER · {pct}% OFF</div>
+              <div class="serif" style="font-size:92px;line-height:1.05;margin-top:12px;color:{LEAF};font-weight:500">${mem}</div></div>
+       </div></div></div>"""
 A['FM-02-carousel-3-what-members-pay_1080x1350'] = (1080,1350,'ivory',f"""
 <img class="logo" src="{u('logo.svg')}" style="left:84px;top:78px;height:40px">
 <div class="eyebrow" style="position:absolute;left:84px;top:180px;color:{LEAF}">Real member prices</div>
 <div class="serif" style="position:absolute;left:80px;top:228px;font-size:84px;line-height:1.02;color:{LEAF}">What members pay.</div>
-<div style="position:absolute;left:84px;right:84px;top:420px;display:grid;gap:56px">
+<div style="position:absolute;left:84px;right:84px;top:410px;display:grid;gap:70px">
  {ex('everliv-nad.jpg','NAD+','59.99','47.99',20)}
  {ex('everliv-b-nmn.jpg','β-NMN','49.99','39.99',20)}
 </div>

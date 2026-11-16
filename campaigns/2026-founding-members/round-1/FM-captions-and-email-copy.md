@@ -1,6 +1,16 @@
-# Founding Members: final-approval package (Round 1, revision 2)
-**Revised:** Nov 16, 2026, about 12:45 PM ET.
+# Founding Members: final-approval package (Round 1, revision 3)
+**Revised:** Nov 16, 2026, about 2:55 PM ET.
 **Status:** NOT scheduled, published or sent, and no paid ads. Launch depends on (a) Restructuring's shopping-flow repairs, verified end to end, and (b) Jeff's final approval.
+
+## Revision 3 changes (minor; design unchanged)
+1. **Carousel slide 3:** the prices are restructured for phone legibility. Each product now shows an "EVERYDAY" label over a 44 px grey price, then a "MEMBER · 20% OFF" label over a 92 px forest-green price. The product name is larger, at 38 px, and the tiles are slightly larger. The two prices sit side by side with clear labels, so they're easy to tell apart.
+2. **Story 3 link sticker:** the clean space is kept. **Place the sticker centred horizontally at about y = 1,000–1,240 px** of the 1,920 px frame, in the open green band between "$69.99 from February 1, 2027" and "Tap to join." It covers no text and stays clear of Instagram's top (250 px) and bottom (340 px) interface zones. In the app, that's roughly the middle of the screen, just above "Tap to join."
+3. **Email:**
+   - **Header image:** a Shopify Messaging build sheet is added (`FM-05-email-shopify-messaging-build-sheet.md`). The header is uploaded into a native Image block, so Shopify hosts it.
+   - **Footer:** the manual unsubscribe and address lines are removed from the reference HTML. Shopify Messaging adds the required footer and a working unsubscribe link.
+   - **CTA:** the URL with UTMs was re-verified at 2:50 PM and returns 200. The mobile layout was re-checked (fits 390 px).
+4. **Restructuring handoff:** updated in place, so it remains the single handoff. It now lists the five pages still showing "most eligible 20%" and states that CA/NC is **disclosed, not technically blocked**. It also asks only for evidence of checks that are genuinely outstanding, and confirms no change to Testosterone & NAD+ placements.
+5. **No other changes.** The card stays the primary visual, the "strips, capsules, powders and more" message stays, the break-even appears only in the carousel and email (not the launch image), and NAD+ and β-NMN remain the examples.
 
 ## Revision 2 changes (targeted; design unchanged)
 | # | Request | Change |
@@ -37,7 +47,7 @@
 | Join button | Disabled until the terms box is ticked, which is intended. Enabling it and checking out were not tested (no purchase). |
 | Mobile (375 px) NAD+ main "Add to Cart — $59.99" | ✓ Visible, enabled and tappable, with no horizontal overflow |
 | Mobile secondary "Add to Cart" further down the page | ⚠ My automated check couldn't confirm it's tappable. Restructuring should test it by hand. |
-| Member price after sign-in, cart, checkout, CA/NC restriction, purchase tracking | **Not testable by Marketing:** no accounts, purchases or test orders. These need Restructuring's end-to-end test. |
+| Member price after sign-in, cart, checkout, purchase tracking. (CA/NC is disclosed but not technically blocked, per owner.) | **Not testable by Marketing:** no accounts, purchases or test orders. These need Restructuring's end-to-end test. |
 
 ## Final launch-readiness checklist (to run after Restructuring reports its repairs complete; Marketing will re-run it)
 1. Member sign-in link works (desktop and mobile).
@@ -47,7 +57,7 @@
 5. Purchase tracking for the membership product is confirmed (GA4 and Meta purchase events). This is required before any paid ads.
 6. Strip availability is rechecked the morning of publishing. If Sleep or Collagen is back, the six-tin family image can return.
 7. Prices in carousel slide 3 are rechecked the morning of publishing.
-8. Ads geo-exclusion for CA and NC is confirmed in the ad account, if ads are approved later.
+8. If ads are approved later, the CA/NC geo-exclusion is set in the ad account. The restriction is disclosed on site but not technically blocked at checkout.
 
 ## Assets
 **Feed, 1080×1350:**
@@ -112,8 +122,30 @@
 
 **Body:** see `FM-05-email-black-friday.html`. On a 390 px phone screen it has no sideways scrolling, and the CTA is 300×52 px.
 
-**Unsubscribe:** the `{{unsubscribe}}` placeholder must be replaced by Shopify Messaging's own unsubscribe link and footer when the email is rebuilt there. Send only to opted-in subscribers.
+**Build:** in Shopify Messaging, use `FM-05-email-shopify-messaging-build-sheet.md`. Shopify hosts the header image and adds the footer and a working unsubscribe link. Send only to opted-in subscribers, after explicit approval.
 
 ## Still on hold
 - **Paid advertising.** Purchase tracking, the CA/NC geo-exclusion and membership restrictions all need to be verified first, and you need to approve a budget.
 - **Strip tins in paid ads.** They carry the unverified "Natural Extracts", so they stay in organic posts only.
+
+## Launch-readiness summary (2:55 PM ET, Nov 16)
+**Marketing: complete, pending your final approval**
+- Final assets: the launch post, 5-slide carousel, 3 stories and the email header.
+- Captions, alt text and UTMs.
+- The Shopify Messaging build sheet and reference email.
+- **Live check, 2:50 PM:**
+  - NAD+ $59.99 → $47.99 and β-NMN $49.99 → $39.99, both 20% and both available.
+  - The membership offer text ($49.99 through Jan 31, 2027 ET; $69.99 from Feb 1, 2027) is live.
+  - The CTA URL works.
+
+**Outstanding: Restructuring** (see the single handoff)
+1. Fix "most eligible 20%" on 5 pages. The terms page wording is the owner's or attorney's call.
+2. Evidence of enrollment, sign-in, cart and checkout passing on mobile and desktop.
+3. The secondary mobile "Add to Cart" button.
+4. GA4 and Meta Purchase events.
+5. Whether a CA/NC checkout block is planned.
+6. Inventory and price checks on launch morning.
+
+**Then:**
+- **Marketing:** a final live re-check on Nov 26 or 27, followed by your go/no-go.
+- **Jeff:** authorise publishing, the email send and (separately) any paid ads.
