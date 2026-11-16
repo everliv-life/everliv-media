@@ -1,28 +1,43 @@
-# Founding Members: final-approval package (Round 1, revised)
-**Revised:** Nov 16, 2026, about 12:15 PM ET.
-**Status:** NOT scheduled, published or sent, and no paid ads. Waiting for (a) Restructuring's shopping-flow fixes to be verified and (b) Jeff's final approval.
+# Founding Members: final-approval package (Round 1, revision 2)
+**Revised:** Nov 16, 2026, about 12:45 PM ET.
+**Status:** NOT scheduled, published or sent, and no paid ads. Launch depends on (a) Restructuring's shopping-flow repairs, verified end to end, and (b) Jeff's final approval.
 
-The design direction is unchanged. These are targeted refinements only.
-
-## What changed from Round 1
-| # | Your note | Change |
+## Revision 2 changes (targeted; design unchanged)
+| # | Request | Change |
 |---|---|---|
-| 1 | Repeated use, not a one-time discount | Launch post adds "Member prices on every eligible order, as often as you shop." Carousel slide 2, point 3, is now "Shop as often as you like." Story 2 adds "Every eligible order, as often as you shop." The email now says "member pricing every time you buy an eligible product, as often as you like." Fine print reads "One payment… member pricing applies to every eligible one-time product purchase during your membership (not Subscribe & Save)." |
-| 2 | Unavailable strips | All purchase-driving creative (launch post, story 2, email header) now shows only the **four strips available today**: Energy, Hydrate, Iron, D3+K2. Sleep (sold out) and Collagen (paused) are removed from this campaign's imagery. The six-tin family image stays in the library for brand use once both are available again. |
-| 3 | Conditional break-even | Slide 4 now opens with "If every purchase is a 20%-off product:" and reads "If everything you buy is eligible for the full 20%… about $250. On 15% products it takes about $333, and a mix lands in between." Fine print: "aren't guaranteed to exceed the $49.99 fee." The email uses the same wording. |
-| 4 | CTA and URL | The CTA is `everliv.life/pages/membership`, which returns 200 as of 12:10 PM. The email button links there with UTMs. The full join flow on mobile and desktop **must be re-tested after Restructuring's repairs** (checklist below). |
-| 5 | Disclosures, and the email on mobile | All disclosures are kept. The email was rebuilt to fit phones: at 390 px there is no horizontal scroll (it previously overflowed at 624 px), the CTA is 300×52 px, and side padding tightens on small screens. |
-| 6 | Claims and images | No product claims added. The images are unaltered supplier renders. The Eye Gel-Cream example stays, named as on the store; the physical label still reads "Peptide Eye Serum" (with the supplier). |
-| 7–8 | Hold | Nothing scheduled or sent. Paid ads stay on hold. |
+| 1 | Clean Story 3 | The "LINK STICKER HERE" placeholder is removed. The space between the price block and "Tap to join" stays clear for the real Instagram link sticker. |
+| 2 | Founding Member card central; offer isn't strips-only | **Launch post:** the card is now the hero visual, replacing the strip tins, with the line "Member prices on every eligible order, as often as you shop: strips, capsules, powders and more." **Email header:** the card replaces the tins. **Story 2:** keeps the four available strips as supporting imagery, captioned "Oral strips shown. Member pricing covers eligible products across EverLiv." On green backgrounds the card has a lighter edge so it stands out. |
+| 3 | Eye Gel-Cream discrepancy | **Replaced in carousel slide 3 by β-NMN:** everyday $49.99, member $39.99 (20%), live and available; Restructuring listed it as positive-margin. The Eye discrepancy has been sent to Restructuring (see the coordination doc). |
+| 4 | Does "most 20%, some 15%" match the settings? | **No, so it's corrected.** All 44 live product pages were checked: **19 products at 20%, 21 at 15%, 4 with no member price** (membership, the 2 wheys, the Ultimate Bundle). "Most are 20%" is therefore inaccurate. Of products available today, it's 17 at 20% vs 21 at 15%, because Sleep and Collagen are unavailable. Every asset now says **"20% or 15% off, depending on the product."** The site's own "most eligible products 20%" wording was flagged to Restructuring. The conditional break-even and the "not guaranteed" disclosure are unchanged. |
 
-## Live verification (12:10 PM ET, Nov 16)
+## Visual check of the packaging shown
+| Product | Image | Packaging status |
+|---|---|---|
+| NAD+ | supplier render (store main image) | Matches the store. The physical label is **not** on the handoff's "confirmed on a shipped unit" list, the same status as most of the catalog. |
+| β-NMN | supplier render (store main image, includes loose capsules) | Same as NAD+ |
+| Energy, Hydrate, Iron, D3+K2 strips | verified supplier cut-outs | D3+K2 was confirmed on a shipped unit; the others are supplier renders. "Natural Extracts" is still unverified (organic use only). |
+
+**Note on swapping the Eye product:** the Eye product's physical label *was* confirmed on a shipped unit, and Supliful confirmed it matches our label file. The discrepancy is its **name**: the label says "Serum", while the store says "Gel-Cream". The swap follows your instruction. Strictly, NAD+ and β-NMN have weaker physical verification than the Eye product does. If you want only physically confirmed packaging, the alternative is D3+K2 Strips ($34.99 → $27.99, 20%), but Restructuring hasn't confirmed their margin.
+
+## Live verification (12:10–12:40 PM ET, Nov 16)
 | Item | Result |
 |---|---|
 | Membership product | $49.99, available |
 | Membership page `/pages/membership` | 200 |
 | Strips available | Energy ✓, Hydrate ✓, Iron ✓, D3+K2 ✓; Sleep ✗ (sold out); Collagen ✗ (unavailable) |
-| Carousel price examples | NAD+ $59.99 → $47.99 member (20% list); Peptide Eye Gel-Cream $44.99 → $35.99 (20% list) |
+| Carousel price examples | NAD+ $59.99 → $47.99 member (20%); β-NMN $49.99 → $39.99 member (20%). Both read from the live product pages. |
 | Noted | Iron and D3+K2 now list at $34.99. The Nov 11 handoff had $29.99. The creative doesn't use their prices. |
+
+## Shopping-flow pre-check (Marketing, read-only, 12:30 PM ET)
+| Check | Result |
+|---|---|
+| "Already a member? Sign in" link | ✓ Opens the Shopify sign-in page (email field present). Signing in was not tested; that needs a real member account. |
+| "Join to unlock member pricing" link | ✓ 200 → membership product |
+| Membership terms and details pages | ✓ 200 |
+| Join button | Disabled until the terms box is ticked, which is intended. Enabling it and checking out were not tested (no purchase). |
+| Mobile (375 px) NAD+ main "Add to Cart — $59.99" | ✓ Visible, enabled and tappable, with no horizontal overflow |
+| Mobile secondary "Add to Cart" further down the page | ⚠ My automated check couldn't confirm it's tappable. Restructuring should test it by hand. |
+| Member price after sign-in, cart, checkout, CA/NC restriction, purchase tracking | **Not testable by Marketing:** no accounts, purchases or test orders. These need Restructuring's end-to-end test. |
 
 ## Final launch-readiness checklist (to run after Restructuring reports its repairs complete; Marketing will re-run it)
 1. Member sign-in link works (desktop and mobile).
@@ -56,13 +71,13 @@ The design direction is unchanged. These are targeted refinements only.
 > **Become a Founding Member.**
 > This Black Friday, we're not discounting products. We're opening membership.
 >
-> One payment of $49.99 gives you 12 months of EverLiv member pricing on every eligible order, as often as you shop. No subscription, and no automatic renewal.
+> One payment of $49.99 gives you 12 months of EverLiv member pricing on every eligible order (strips, capsules, powders and more) as often as you shop. No subscription, and no automatic renewal.
 >
 > Founding price through January 31, 2027. From February 1, membership is $69.99.
 >
 > Join through the link in bio.
 >
-> *Member pricing applies to eligible one-time product purchases (not Subscribe & Save): most eligible products 20% off, some 15%, some excluded. Savings depend on what you buy. Not available to residents of CA or NC. Terms at everliv.life.*
+> *Member pricing applies to eligible one-time product purchases (not Subscribe & Save): 20% or 15% off depending on the product, some products excluded. Savings depend on what you buy. Not available to residents of CA or NC. Terms at everliv.life.*
 
 **FB:** replace "link in bio" with the UTM link.
 
@@ -71,15 +86,15 @@ The design direction is unchanged. These are targeted refinements only.
 >
 > $49.99 through January 31, 2027 · $69.99 from February 1.
 >
-> *Eligible one-time product purchases; some 15%, some excluded. Prices as of Nov 16 and may change. Not available in CA or NC.*
+> *Eligible one-time product purchases; 20% or 15% depending on the product, some excluded. Prices as of Nov 16 and may change. Not available in CA or NC.*
 
 ### Cyber Monday: story set FM-03, plus a short feed caption (Mon Nov 30)
 > Still deciding? Founding membership is $49.99, paid once, for 12 months of member pricing on every eligible order. The founding price runs through January 31. No auto-renewal, so you choose whether to join again next year.
 
 ### Alt text
-- **FM-01:** "Become a Founding Member. A full year of member pricing, $49.99 paid once. EverLiv Energy, Hydrate, Iron and D3 + K2 oral strip tins."
+- **FM-01:** "EverLiv Founding Member card. Become a Founding Member: a full year of member pricing, $49.99 paid once, on eligible strips, capsules, powders and more."
 - **FM-02 cover:** "EverLiv Founding Member card. Become a Founding Member: a full year of member pricing, $49.99 paid once."
-- **FM-02 slide 3:** "What members pay: NAD+ everyday $59.99, member $47.99. Peptide Eye Gel-Cream everyday $44.99, member $35.99."
+- **FM-02 slide 3:** "What members pay: NAD+ everyday $59.99, member $47.99. β-NMN everyday $49.99, member $39.99."
 - **FM-02 slide 4:** "If every purchase is a 20%-off product, $49.99 divided by 20% equals $249.95."
 
 ### UTMs
@@ -95,7 +110,9 @@ The design direction is unchanged. These are targeted refinements only.
 
 **Preheader:** "A full year of member pricing. $49.99, paid once. Founding price through January 31, 2027."
 
-**Body:** see `FM-05-email-black-friday.html`.
+**Body:** see `FM-05-email-black-friday.html`. On a 390 px phone screen it has no sideways scrolling, and the CTA is 300×52 px.
+
+**Unsubscribe:** the `{{unsubscribe}}` placeholder must be replaced by Shopify Messaging's own unsubscribe link and footer when the email is rebuilt there. Send only to opted-in subscribers.
 
 ## Still on hold
 - **Paid advertising.** Purchase tracking, the CA/NC geo-exclusion and membership restrictions all need to be verified first, and you need to approve a budget.
