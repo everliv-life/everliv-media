@@ -1,14 +1,16 @@
 # EverLiv Marketing: overnight audit and brand readiness report
 **For:** Jeff and Esther · **Prepared:** Nov 15–16, 2026 (site checked 11:00–11:15 PM ET Nov 15 / 04:00–04:15 UTC Nov 16)
 
+> **Correction, 11:35 PM ET Nov 15:** an earlier version called Testosterone & NAD+ Support "discontinued". That was wrong. Jeff confirms the product is **not discontinued**. Quantus may have put EverLiv's fulfillment on a temporary hold over an unpaid invoice, which Jeff plans to pay Nov 16; that hold is owner-reported and unconfirmed. The "discontinued" label was an assumption drawn from the Nov 11 handoff, and the evidence trail is in §21. Marketing made no change to the product, and none should be made on the basis of this report.
+
 **Marketing made no live changes.** That means no edits to Shopify, Metricool, email, ads or any supplier contact.
 
 ---
 
 ## 1. Executive summary
-The site's structure, pricing pages and policies are in good shape. **Ways to Save is now live and largely accurate.** The launch risk is in **content, not mechanics**. There are three **Critical** items:
+The site's structure, pricing pages and policies are in good shape. **Ways to Save is now live and largely accurate.** The launch risk is in **content, not mechanics**. The top three items (two Critical and one High, after the 11:35 PM correction):
 
-1. **The discontinued Quantus Testosterone & NAD+ product is the homepage hero and the first "Start here" card**, and it is still purchasable ($79.95).
+1. **Testosterone & NAD+ Support is the homepage hero and the first "Start here" card, and it carries hormone and fat-metabolism claims** ("Helps support healthy testosterone levels"). It is live and showing as available ($79.95). The product is active, per Jeff. The open issues are the claims, which need legal review; the Nov 11 decision to exclude Quantus items from marketing, which Jeff needs to reconfirm; and a possible temporary fulfillment hold.
 2. **`/pages/solutions` and the homepage "Shop by Need" tiles make hormone, neuro, memory and fat-burning claims** ("Natural testosterone support", "Neuroprotective support", "Improved memory retention", "Burn smarter, not harder").
 3. **Product copy across about 15 SKUs carries disease-adjacent claims** (blood sugar, cholesterol, blood pressure, fat burning, immunomodulation) with no substantiation on file.
 
@@ -26,7 +28,7 @@ All three are fixable in Restructuring's queue with copy already drafted here. T
 ## 3. Brand and visual audit (prioritized)
 | # | Rating | Finding | Evidence |
 |---|---|---|---|
-| B1 | **Critical** | The Testosterone (Quantus) product is hero slide 1 and the first "Start here" card | shots 02, 09, 10 |
+| B1 | **High** (was Critical) | Testosterone & NAD+ (Quantus; active per owner) is hero slide 1 and the first "Start here" card. The product is fine. The issues are hormone claims on the lead slide, a possible temporary fulfillment hold, and a conflict with the Nov 11 marketing exclusion, which Jeff needs to decide on | shots 02, 09, 10 |
 | B2 | **High** | On the mobile hero, the headline overlaps the product's label text | shot 09 |
 | B3 | **High** | The hero strips image clips the Collagen tin at the right edge | shot 01 |
 | B4 | **High** | "Start here" leads with member prices while enrollment is closed (in Restructuring's queue) | shots 04, 10 |
@@ -46,7 +48,7 @@ All three are fixable in Restructuring's queue with copy already drafted here. T
 | Sleep Strips | supplier render (7 images) | Accurate render; **sold out until Nov 25; excluded from promotion** |
 | Peptide Eye Serum | supplier render | Label matches the supplier's label PDF exactly (verified Nov 15). Image crop is too small |
 | Capsules, tubs, pouches, gummies (≈24) | supplier renders | Consistent; not individually checked against labels tonight |
-| Testosterone & NAD+ | 1024² legacy image | **Discontinued: remove** |
+| Testosterone & NAD+ | 1024² legacy image (Quantus) | **Active per owner.** Not a Supliful product, so it is outside the Supliful packaging verification. Image accuracy against the current Quantus pack was not checked |
 
 ## 5. Oral strip imagery (requested focus)
 - **Best approved strip images (new tonight, no clipping):**
@@ -62,7 +64,8 @@ Full table: `claude/claims-audit-2026-11-16.md`. Every statement is classified V
 
 | Severity | Items |
 |---|---|
-| Critical (3) | Testosterone product; Solutions page claims; Berberine (blood sugar, cholesterol, heart, weight) |
+| Critical (2) | Solutions page claims; Berberine (blood sugar, cholesterol, heart, weight) |
+| High (hormone) | Testosterone & NAD+ hormone and fat-metabolism claims (product active; claims need legal review) |
 | High (9) | IgniteFX fat burning; homepage "Burn smarter"; Resveratrol cholesterol and fat storage; Magnesium blood pressure; Mushroom "immunomodulating"; protein weight and hunger claims; Eye Serum fine lines and sensitive skin; soap and coffee "Organic" and "fair trade"; Sleep "effectively improves… sleep" |
 | Medium (~12) | Eye Serum label badges (GMP, Cruelty Free, Made in USA); "Grass-Fed"; "Natural Extracts"; "Science-backed"; "Verified Buyer" and "Real Results"; bundle "Ships in 1–2 days"; FAQ "lab documents" |
 
@@ -93,7 +96,7 @@ Full table: `claude/claims-audit-2026-11-16.md`. Every statement is classified V
 9. footer
 
 **Problems:**
-- It opens with a discontinued, claim-heavy product.
+- It opens with the most claim-sensitive product in the catalog (a hormone claim). Separately from that, it may be on a temporary fulfillment hold.
 - It leads with closed-membership pricing.
 - There are three "browse" grids in a row (Series, Need, Start here) before any brand story.
 
@@ -143,7 +146,7 @@ Full plan: `claude/seo-plan-2026-11-16.md`.
 | 5.0 rating from 1 review | Misleading as a trust signal | Medium |
 | Unsubstantiated label badges (GMP, Cruelty Free, Made in USA) | On packaging, not in marketing | Medium (legal) |
 | "Lab documents" in the FAQ meta; "Science-backed" | Not backed by published COAs | Medium |
-| Discontinued product purchasable | Fulfilment risk | **Critical** |
+| Testosterone & NAD+ purchasable during a possible Quantus fulfillment hold | Delay risk on new orders until the invoice clears (owner-reported) | **Medium**, temporary |
 | Bundle "Ships in 1–2 days" vs policy | Inconsistent promise | Medium |
 
 ## 12. Asset inventory
@@ -170,7 +173,8 @@ In `claude/marketing-materials-pack-2026-11-16.md`, all marked DRAFT:
 
 ## 14. Coordination with Restructuring
 `claude/restructuring-handoff-marketing-audit-2026-11-16.md` has 21 rows, each with the exact URL, screenshot reference, proposed fix and priority:
-- Critical: R1 (Testosterone), R2 (Solutions claims)
+- Critical: R2 (Solutions claims)
+- R1 (Testosterone) is downgraded to High and is now an owner decision only, with **no unpublishing**
 - High: R3–R7 (bundle button and shipping, member-price display, clipped hero, alt text, reviews)
 - Medium and Low: the rest
 
@@ -199,14 +203,14 @@ It does not touch checkout, pricing or membership mechanics.
 - the bundle maths
 - empty alt fields
 - the 404s
-- the Testosterone product being live and featured
+- the Testosterone & NAD+ product being live, featured and showing "available: true" (re-checked 11:30 PM ET)
 - the Eye Serum label text
 
 **Assumptions or unverified:**
 - whether any membership members exist
 - review provenance
 - the coffee pack format
-- whether the Testosterone product can actually be fulfilled
+- whether Quantus has a fulfillment hold in place (owner-reported possibility), and whether it clears after payment
 - the source of the people photos
 - whether the Restructuring fixes in its queue have since gone live (the site may change after 04:15 UTC)
 
@@ -218,7 +222,9 @@ It does not touch checkout, pricing or membership mechanics.
 - macOS Save As dialogs: avoided by writing files directly; no workaround to security controls was attempted.
 
 ## 18. Decisions needed from Jeff
-1. Unpublish Testosterone & NAD+ (recommended: yes, today).
+1. Testosterone & NAD+ (product stays live, per your instruction). Two decisions:
+   - Does the Nov 11 rule excluding Quantus items from marketing still apply to it?
+   - Should it stay as the lead hero slide while its hormone claims await legal review, and possibly while Quantus fulfillment is on hold?
 2. Approve the conservative Solutions and Shop by Need subheads, or hide those bullets until legal review.
 3. Eye Serum: keep the name and call it a "gel-cream" texture, or rename at the next label run.
 4. Do any Member Price Club members exist? This settles the "existing members" copy.
@@ -235,7 +241,7 @@ It does not touch checkout, pricing or membership mechanics.
 - **Your Mac:** `~/Downloads/EverLiv-Overnight-Audit-2026-11-16/` (report, docs and screenshots), written directly with no dialogs.
 
 ## 20. Morning visual inspection checklist (Jeff and Esther, about 15 minutes)
-1. **[Critical]** Homepage desktop and phone: is the Testosterone slide or card still showing? Is the product page still buyable?
+1. **[High]** Testosterone & NAD+: after paying the Quantus invoice, confirm with Quantus that the fulfillment hold (if any) is lifted. Then decide whether it remains hero slide 1.
 2. **[Critical]** `/pages/solutions`: are the testosterone, neuroprotective and memory lines still visible?
 3. **[High]** Phone hero: does the headline overlap the label text?
 4. **[High]** "Start here" and any product page: does the everyday price lead, or the member price?
@@ -245,3 +251,23 @@ It does not touch checkout, pricing or membership mechanics.
 8. **[Medium]** `/pages/reviews`: do you recognize these reviewers as real buyers of the current products?
 9. **[Medium]** The Eye Serum product page: is the bottle tiny? Serum or gel-cream?
 10. **[Low]** Coffee product images: carton plus bag. Which one does a customer actually receive?
+
+## 21. Correction record: Testosterone & NAD+ Support status
+| Evidence | What it actually says | What I concluded | Assessment |
+|---|---|---|---|
+| Nov 11 Restructuring handoff (`EverLiv-Marketing-Handoff-2026-11-11.md`) | "Four old Quantus products (Testosterone & NAD+, …) are not carried forward." "**Not moving to Supliful.** Four Quantus items have no replacement… Quantus has not replied. Do not market these." Open question: "Will Quantus respond about the 4 unswapped products?" | "Discontinued" | **Over-read.** The handoff says the product was not migrated to Supliful and should not be marketed. It never says "discontinued". |
+| Project instructions | "Do not promote discontinued Quantus products as currently available." | Treated every non-migrated Quantus item as falling under this rule | **Assumption.** The instruction doesn't name which Quantus products are discontinued. |
+| My own Nov 11 status note (`marketing-status-2026-11-11.md`) | "All 4 discontinued Quantus products … excluded from marketing" | Re-used my earlier wording as if it were confirmed | **Self-propagated label.** The owner decision recorded that day was *exclusion from marketing*; "discontinued" was my wording. |
+| Live store, Nov 14 and Nov 16 | Published; vendor "EverLiv LLC"; SKU EVERLIV-TS002; `available: true` | Concluded a discontinued product was still on sale | The store data is consistent with an **active** product. Nothing in it indicates discontinuation. |
+| Quantus account or fulfillment status | **No evidence seen.** I have no access to Quantus and never saw any hold notice | — | The fulfillment hold **did not** cause my classification. I didn't know about it. |
+
+**The three states, defined:**
+- **Discontinued:** the product will no longer be made or sold. No evidence of this exists.
+- **Temporary fulfillment hold:** the product is active, but the supplier is pausing shipments (here, pending an invoice). Owner-reported as possible; unconfirmed.
+- **Assumption from the old supplier relationship:** "not migrated to Supliful" was read as "discontinued". This is the actual source of the error.
+
+**Current status:**
+- **Active.** Quantus-fulfilled; not a Supliful product. Owner-confirmed, Nov 15.
+- **Possible temporary Quantus hold** until the invoice is paid (owner-reported).
+- **Marketing treatment:** the product isn't promoted in social or email until Jeff decides whether the Nov 11 exclusion still applies. Its hormone claims stay on the attorney list regardless of status.
+- **Process fix:** supplier status labels now need a dated source. "Not migrated", "on hold" and "discontinued" are tracked as separate fields. This is logged in `creative-error-log.md`.

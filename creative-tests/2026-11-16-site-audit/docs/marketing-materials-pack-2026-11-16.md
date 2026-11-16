@@ -82,13 +82,13 @@ Follow the published Ways to Save page; do not go beyond it.
 - Gift-ready coffee & soap sets *(hold; see the gift-edit approvals)*
 
 ## 7. Launch checklist (Marketing side)
-- [ ] The Restructuring Critical fixes are live (R1 Testosterone, R2 Solutions claims).
+- [ ] The Restructuring Critical fix is live (R2 Solutions claims). R1 (Testosterone as the lead hero) is the owner's decision.
 - [ ] The member-price display leads with the everyday price (R4).
 - [ ] Ways to Save content is approved by the owner; membership language is cleared by the attorney.
 - [ ] Alt text is pasted (R6).
 - [ ] Review provenance is confirmed (R7).
 - [ ] Social bio and links point to everliv.life with UTMs (`utm_source=<platform>&utm_medium=social&utm_campaign=launch-nov26`).
-- [ ] Week-1 posts are re-checked against the claims audit; no Sleep, no Testosterone.
+- [ ] Week-1 posts are re-checked against the claims audit; no Sleep. No Testosterone & NAD+ until Jeff decides on the Nov 11 Quantus marketing exclusion and the hormone claims are reviewed.
 - [ ] The AI disclosure line is on every composite: "Product shown as supplied; scene digitally created."
 - [ ] Each post is owner-approved before scheduling; the Monday X post (id 426291724) is preserved.
 - [ ] The independent QA pass is complete for each image marked READY.

@@ -14,7 +14,7 @@
 | Collagen Strips | `library/collagen-strips/collagen-strips--front.png` | cut-out v2 (`collagen-strips--front-cutout.png`; degraded v1 in `superseded/`) | Supplier documentation questions unanswered |
 | Peptide Eye Serum | `library/peptide-eye-serum/peptide-eye-serum--front.jpg`; supplier label file in `peptide-eye-serum/supplier/` | none approved | 3D renders are internal only. **v9 = gloss label (current internal reference); v1–v8 matte = superseded** (see `creative-tests/2026-11-14-eye-serum-3d-accuracy/renders/STATUS.md`) |
 | All other products (capsules, tubs, gummies) | store main images (supplier renders) | none | Claim-gated or blocked; see the readiness shortlist |
-| Testosterone & NAD+ | n/a | n/a | Discontinued Quantus product: **do not use any imagery** |
+| Testosterone & NAD+ | store main image (Quantus legacy, 1024²) | none | **Active Quantus product** (owner, Nov 15; *corrected: earlier marked discontinued in error*). Possible temporary fulfillment hold. Outside Supliful verification. Not in marketing until the owner decides on the Nov 11 exclusion; hormone claims under review |
 
 ## Not for paid advertising (current)
 - **Everything with "Pure Cellular Vitality" on the pack** (soaps, coffees, capsules), until claims review. Organic use is acceptable.
