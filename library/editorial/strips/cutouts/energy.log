@@ -1,0 +1,1 @@
+{"source": "energy.jpg", "out": "energy--cutout.png", "crop_box": [348, 446, 1699, 1807], "size": [1351, 1361], "opaque_px": 1737944, "edge_band_px": 25594, "interior_pixels_identical_to_source": true}
