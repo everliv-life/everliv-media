@@ -1,0 +1,14 @@
+{
+ "scale_from_cutout": 0.6938,
+ "product_px": [
+  502,
+  1107
+ ],
+ "product_height_pct_of_frame": 41.0,
+ "product_width_pct_of_frame": 23.2,
+ "exposure_scalar": 0.954,
+ "label_sharpness_pct_of_source_same_width": 81,
+ "mean_abs_chroma_ratio_shift": 0.002,
+ "grain_sd": 2.4,
+ "note": "product pixels = cut-out x exposure scalar + luminance grain; no tint"
+}
