@@ -545,6 +545,82 @@ for i, (eb, hd, sub) in enumerate([
   {f"<div class='p' style='font-size:38px;opacity:.9;max-width:820px'>{sub}</div>" if sub else ''}
 </div>{foot(FINE_S,'center') if i == 3 else '<div></div>'}""")
 
+# ======================= BACKUP CONCEPTS (genuinely different directions) =======================
+add('ALT-A04-1-new-chapter_feed', 'feed', 'champ', f"""{header(False)}
+<div class='mid' style='align-items:center;text-align:center;gap:44px'>
+  {emblem(260)}
+  <div class='hd' style='font-size:104px;color:{LEAF}'>A new chapter<br>of <i>EverLiv.</i></div>
+  <div class='p' style='font-size:34px'>The Member Price Club is here. Pay $49.99 once<br>for 12 months of member pricing on eligible products.</div>
+</div>{foot(FINE_M,'center')}""")
+add('ALT-A04-2-your-year_feed', 'feed', 'ivory', f"""{header(False)}
+<div class='mid' style='gap:30px'>
+  <div class='hd' style='font-size:92px;color:{LEAF};margin-top:20px'>Your year.<br>Your wellness.<br><i>Your member price.</i></div>
+  <div style='display:grid;grid-template-columns:1fr 1fr;gap:22px'>
+    <div class='photo' style='height:420px'><img src='{u('everliv-caramel-coffee--holiday-kitchen--social-1080x1350.png')}'></div>
+    <div class='photo' style='height:420px'><img src='{u('everliv-slumber-soap--spa-counter--social-1080x1350.png')}'></div></div>
+  <div class='p' style='font-size:32px'>Founding Membership: $49.99 once, 12 months.</div>
+</div>{foot(AI + ' ' + FINE_S)}""")
+add('ALT-B01-2-launching-a-year_feed', 'feed', 'ivory', f"""{header(False)}
+<div class='mid' style='gap:30px'>
+  <div class='eb' style='color:#9C7A3A'>Black Friday at EverLiv</div>
+  <div class='hd' style='font-size:300px;color:{GOLD};line-height:.85'>365</div>
+  <div class='hd' style='font-size:84px;color:{LEAF}'>The only thing we're<br>launching is <i>a year.</i></div>
+  <div class='p' style='font-size:32px'>Founding Membership: member pricing on eligible products for 12 months. $49.99 once.</div>
+</div>{foot(FINE_M)}""")
+add('ALT-B04-1-no-codes_feed', 'feed', 'green', f"""{header(True)}
+<div class='mid' style='gap:26px'>
+  <div class='hd' style='font-size:116px;opacity:.35;text-decoration:line-through;text-decoration-thickness:4px'>Codes.</div>
+  <div class='hd' style='font-size:116px;opacity:.35;text-decoration:line-through;text-decoration-thickness:4px'>Countdown clocks.</div>
+  <div class='hd' style='font-size:116px'>Just <i>a year.</i></div>
+  <div class='p' style='font-size:34px;opacity:.9'>Cyber Monday at EverLiv: Founding Membership, $49.99 once, 12 months of member pricing.</div>
+</div>{foot(FINE_M)}""")
+add('ALT-C02-1-give-the-routine_feed', 'feed', 'champ', f"""{header(False, member=False)}
+<div class='mid' style='gap:34px'>
+  <div class='eb' style='color:#3E5B41'>Holiday Gift Guide</div>
+  <div class='hd' style='font-size:100px;color:{LEAF}'>Give the routine,<br><i>not the clutter.</i></div>
+  <div style='display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;align-items:end'>
+    <img src='{u('everliv-caramel-coffee-dark-roast--front-cutout-v2.png')}' style='width:100%'>
+    <img src='{u('everliv-sandalwood-soap--front-cutout-v2.png')}' style='width:100%'>
+    <img src='{u('everliv-milk-honey-soap--front-cutout-v2.png')}' style='width:100%'></div>
+  <div class='p' style='font-size:32px'>Coffee from $32.99 · handmade soap $20.99 · free U.S. shipping</div>
+</div><div></div>""")
+add('ALT-D10-1-your-wellness-evolves_feed', 'feed', 'green', f"""{header(True, member=False)}
+<div class='mid' style='gap:40px'>
+  <div class='hd' style='font-size:110px'>Your wellness<br>journey evolves.<br><i>So does EverLiv.</i></div>
+  <img src='{u('strips-available-4--row--transparent.png')}' style='width:100%'>
+  <div class='p' style='font-size:32px;opacity:.9'>Happy New Year. Here's to what's next.</div>
+</div><div></div>""")
+
+# ======================= Reels from approved stills =======================
+def still_frame(name, img, eb, hd, last=False, fine=AI):
+    add(name, 'story', 'green', f"""<div style='display:flex;justify-content:center'>{logo(True,46)}</div>
+<div class='mid' style='gap:44px'>
+  <div class='photo' style='height:960px'><img src='{u(img)}'></div>
+  <div style='text-align:center'><div class='eb' style='color:{LIME}'>{eb}</div><div class='hd' style='font-size:84px;margin-top:18px'>{hd}</div></div>
+</div>{foot(fine,'center')}""")
+still_frame('C02R-gift-reel_f1', 'everliv-hazelnut-coffee--stone-plinth--social-1080x1350.png', 'For the office', 'Coffee they\'ll <i>actually drink.</i>')
+still_frame('C02R-gift-reel_f2', 'everliv-oat-milk-honey-soap--gift-flatlay--social-1080x1350.png', 'For the self-care lover', 'Handmade <i>soaps.</i>')
+still_frame('C02R-gift-reel_f3', 'everliv-coconut-beach-soap--gift-flatlay--social-1080x1350.png', 'From $20.99', 'Six scents, <i>handmade.</i>')
+still_frame('C02R-gift-reel_f4', 'everliv-cocoa-coffee--holiday-kitchen--social-1080x1350.png', 'Free U.S. shipping', 'Shop the <i>gift guide.</i>', fine=AI + ' Free U.S. shipping on every order.')
+still_frame('C16-last-minute-reel_f1', 'everliv-caramel-coffee--holiday-kitchen--social-1080x1350.png', 'Still shopping?', 'A good <i>coffee.</i>')
+still_frame('C16-last-minute-reel_f2', 'everliv-rich-sandalwood-soap--gift-flatlay--social-1080x1350.png', 'Or', 'A handmade <i>soap.</i>')
+add('C16-last-minute-reel_f3', 'story', 'green', f"""<div style='display:flex;justify-content:center'>{logo(True,46)}</div>
+<div class='mid' style='align-items:center;text-align:center;gap:50px'>
+  <img src='{u('strips-available-4--2x2--transparent.png')}' style='width:760px'>
+  <div class='eb' style='color:{LIME}'>Or</div><div class='hd' style='font-size:90px'>A tin of <i>oral strips.</i></div>
+  <div class='p' style='font-size:34px;opacity:.9'>Free U.S. shipping · orders processed in 1–3 business days</div>
+</div>{foot('Delivery times are estimates. Energy Strips contain caffeine.','center')}""")
+still_frame('D03-morning-ritual-reel_f1', 'everliv-cocoa-coffee--holiday-kitchen--social-1080x1350.png', 'Step one', 'A coffee you <i>look forward to.</i>')
+add('D03-morning-ritual-reel_f2', 'story', 'green', f"""<div style='display:flex;justify-content:center'>{logo(True,46)}</div>
+<div class='mid' style='align-items:center;text-align:center;gap:50px'>
+  <div class='tile' style='width:760px;height:760px'><img src='{u('energy-strips--front.jpg')}'></div>
+  <div class='eb' style='color:{LIME}'>Step two</div><div class='hd' style='font-size:90px'>A strip, <i>no water needed.</i></div>
+</div>{foot('Energy Strips contain caffeine. Not for children, pregnant or nursing women, or anyone sensitive to caffeine.','center')}""")
+add('D03-morning-ritual-reel_f3', 'story', 'green', f"""<div style='display:flex;justify-content:center'>{logo(True,46)}</div>
+<div class='mid' style='align-items:center;text-align:center;gap:40px'><div class='eb' style='color:{LIME}'>Step three</div>
+  <div class='hd' style='font-size:120px'>A minute<br>of <i>stillness.</i></div></div><div></div>""")
+still_frame('D03-morning-ritual-reel_f4', 'everliv-aloe-cool-cucumber-soap--spa-counter--social-1080x1350.png', 'Then', 'The day <i>is yours.</i>')
+
 async def main(only=None):
     async with async_playwright() as p:
         b = await p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--allow-file-access-from-files'])

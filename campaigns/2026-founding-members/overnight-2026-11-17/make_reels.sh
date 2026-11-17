@@ -10,3 +10,6 @@ mk A02-teaser-reel A02-teaser-reel_f1.png A02-teaser-reel_f2.png A02-teaser-reel
 mk A04R-reveal-reel A04R-reveal-reel_f1.png A04R-reveal-reel_f2.png A04R-reveal-reel_f3.png A04R-reveal-reel_f4.png
 mk B01R-bf-reel B01R-bf-reel_f1.png B01R-bf-reel_f2.png B01R-bf-reel_f3.png B01R-bf-reel_f4.png
 mk C19-math-reel C19-math-reel_f1.png C19-math-reel_f2.png C19-math-reel_f3.png C19-math-reel_f4.png
+mk C02R-gift-reel C02R-gift-reel_f1.png C02R-gift-reel_f2.png C02R-gift-reel_f3.png C02R-gift-reel_f4.png
+mk C16-last-minute-reel C16-last-minute-reel_f1.png C16-last-minute-reel_f2.png C16-last-minute-reel_f3.png
+mk D03-morning-ritual-reel D03-morning-ritual-reel_f1.png D03-morning-ritual-reel_f2.png D03-morning-ritual-reel_f3.png D03-morning-ritual-reel_f4.png

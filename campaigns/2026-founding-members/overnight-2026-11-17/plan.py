@@ -155,8 +155,8 @@ piece('2026-12-02', PH_C, 'C02', 'The EverLiv Holiday Gift Guide',
 piece('2026-12-03', PH_C, 'C02R', 'Gift guide in 15 seconds (reel)',
       'Six gifts, fifteen seconds.',
       "Coffee, handmade soap, oral strips and training staples: the EverLiv gift guide in fifteen seconds. Free U.S. shipping. " + AI_DISC,
-      'reel', 'SPEC', 'Shop gifts', '/collections/all', 'Reach, product discovery', kind='product',
-      platforms=('IG', 'FB', 'TikTok', 'YT'), deps='Edit from approved lifestyle stills (storyboard in scripts/).')
+      'reel', 'C02R-gift-reel', 'Shop gifts', '/collections/all', 'Reach, product discovery', kind='product',
+      platforms=('IG', 'FB', 'TikTok', 'YT'), deps='Rendered from owner-approved lifestyle stills (AI-scene disclosure).')
 piece('2026-12-03', PH_C, 'E03', 'EMAIL 3: Holiday gift guide',
       'Gifts that fit real routines',
       'Subject: "The EverLiv Holiday Gift Guide". Blocks: header (gift edit image), 4 category tiles (coffee, soap, strips, training), membership strip at bottom ("Shopping for yourself too? Founding Membership"). Everyday prices only.',
@@ -250,12 +250,12 @@ piece('2026-12-16', PH_C, 'C15', 'The EverLiv Edit: gifts under $35',
 piece('2026-12-17', PH_C, 'C16', 'Last-minute gifting (reel)',
       'Still shopping? Three gifts that are hard to get wrong.',
       "Coffee, a handmade soap or a tin of oral strips. Free U.S. shipping; orders are processed in 1 to 3 business days.",
-      'reel', 'SPEC', 'Shop now', '/collections/all', 'Product sales', kind='product', platforms=('IG', 'FB', 'TikTok', 'YT'),
+      'reel', 'C16-last-minute-reel', 'Shop now', '/collections/all', 'Product sales', kind='product', platforms=('IG', 'FB', 'TikTok', 'YT'),
       deps='No delivery-by-Christmas promise.')
 piece('2026-12-17', PH_C, 'E05', 'EMAIL 5: Last-minute gifts',
       'Three easy gifts',
       'Subject: "Three gifts that are hard to get wrong". Coffee / soap / strips tiles, shipping-policy line (no guarantee), membership footer.',
-      'email', 'C16-last-minute', 'Shop now', '/collections/all', 'Product sales', kind='product', platforms=('Email',))
+      'email', 'C15-edit-under-35', 'Shop now', '/collections/all', 'Product sales', kind='product', platforms=('Email',))
 piece('2026-12-18', PH_C, 'C17', 'Gift yourself a year',
       'Done shopping for everyone else? This one is for you.',
       "Founding Membership: $49.99 once, 12 months of member pricing on eligible products for your own routine. No automatic renewal.\n\n" + DISC,
@@ -287,7 +287,7 @@ piece('2026-12-22', PH_D, 'D02', 'Consistency over quick fixes',
 piece('2026-12-23', PH_D, 'D03', 'The morning ritual (reel)',
       'A morning routine in four quiet steps.',
       "Coffee, a strip, a minute of stillness, then the day. A morning ritual with EverLiv.\n\n" + AI_DISC,
-      'reel', 'SPEC', 'Explore EverLiv', '/collections/all', 'Reach, brand', kind='product', platforms=('IG', 'FB', 'TikTok', 'YT'))
+      'reel', 'D03-morning-ritual-reel', 'Explore EverLiv', '/collections/all', 'Reach, brand', kind='product', platforms=('IG', 'FB', 'TikTok', 'YT'))
 piece('2026-12-24', PH_D, 'D04', 'Holiday greeting (no sell)',
       'From all of us at EverLiv: happy holidays.',
       "Wishing you a calm, warm and well-rested holiday. From all of us at EverLiv.",

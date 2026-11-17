@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EverLiv Founding Members: Campaign Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--leaf:#2A422A;--page:#F1F1EE;--ink:#1A1C17;--champ:#EADFC3;--gold:#C9B27C;--muted:#6B6B6B;--line:#DFDDD8}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font-family:Figtree,system-ui,sans-serif}
+header{background:var(--leaf);color:#E9E4DF;padding:28px 32px 20px}
+h1{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:34px;margin:0}
+.sub{opacity:.85;margin-top:6px;font-size:14px}
+nav{display:flex;gap:6px;flex-wrap:wrap;margin-top:18px}
+nav button,.chip{border:1px solid rgba(233,228,223,.35);background:transparent;color:#E9E4DF;padding:8px 14px;border-radius:999px;font:600 13px Figtree,system-ui,sans-serif;cursor:pointer}
+nav button.on{background:var(--champ);color:var(--leaf);border-color:var(--champ)}
+main{padding:24px 32px 80px;max-width:1500px;margin:0 auto}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.bar select,.bar input{padding:9px 12px;border:1px solid var(--line);border-radius:10px;font:14px Figtree,system-ui,sans-serif;background:#fff}
+.btn{border:0;border-radius:999px;padding:10px 18px;font:600 13px Figtree,system-ui,sans-serif;cursor:pointer;background:var(--leaf);color:#E9E4DF}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.thumbs{display:flex;gap:6px;overflow-x:auto;background:#e8e6e1;padding:8px}
+.thumbs img,.thumbs video{height:300px;border-radius:8px;flex:none;cursor:zoom-in}
+.body{padding:14px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.meta{font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap}
+.pill{font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;background:#eef0ea;color:#3E5B41}
+.pill.spec{background:#fbf1dc;color:#8a6a1f}.pill.todo{background:#f8e1e1;color:#9b2222}
+.t{font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.2}
+.hook{font-weight:600}
+details{font-size:13px;color:#333}details pre{white-space:pre-wrap;font-family:Figtree;margin:6px 0 0}
+.dec{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.dec button{flex:1;border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 6px;font:600 12px Figtree,system-ui,sans-serif;cursor:pointer}
+.dec button.on{background:var(--leaf);color:#fff;border-color:var(--leaf)}
+.note{width:100%;border:1px solid var(--line);border-radius:10px;padding:8px;font:13px Figtree,system-ui,sans-serif;min-height:34px}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13px}th,td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+th{position:sticky;top:0;background:var(--leaf);color:#fff;font-weight:600}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:9}
+.lb img,.lb video{max-height:94vh;max-width:94vw;border-radius:10px}
+.box{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 24px;margin-bottom:16px}
+.box h2{font-family:Newsreader,Georgia,serif;font-weight:400;margin:0 0 8px}
+textarea.out{width:100%;height:160px;font:12px monospace;border-radius:10px;border:1px solid var(--line);padding:10px}
+</style></head><body>
+<header><h1>EverLiv Founding Members · Campaign Review</h1>
+<div class="sub">Overnight build, Nov 16–17, 2026 · all items are drafts awaiting Jeff &amp; Esther · nothing published, scheduled or sent</div>
+<nav id="tabs"><button data-t="assets" class="on">Assets by date</button><button data-t="alts">Backup concepts</button><button data-t="cal">Full calendar (237 posts)</button><button data-t="jan">January roadmap</button><button data-t="dec">Decisions &amp; export</button></nav></header>
+<main id="app"></main>
+<div class="lb" id="lb" onclick="this.style.display='none';this.innerHTML=''"></div>
+<script>
+const K='everliv-fm-review-v1';let S={};try{S=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}};
+let D,C,tab=location.hash.replace('#','')||'assets';
+const esc=s=>(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function zoom(src,vid){const l=document.getElementById('lb');l.innerHTML=vid?`<video src="${src}" controls autoplay loop></video>`:`<img src="${src}">`;l.style.display='flex'}
+function decisionUI(id){const d=S[id]||{};return `<div class="dec">${['Approve','Edit','Use backup','Reject'].map(x=>`<button class="${d.v===x?'on':''}" onclick="setD('${id}','${x}')">${x}</button>`).join('')}</div>
+<textarea class="note" placeholder="Notes / edits for ${id}" oninput="setN('${id}',this.value)">${esc(d.n||'')}</textarea>`}
+window.setD=(id,v)=>{S[id]=S[id]||{};S[id].v=S[id].v===v?'':v;save();render()};window.setN=(id,v)=>{S[id]=S[id]||{};S[id].n=v;save()};
+function statusPill(s){const c=s.startsWith('SPEC')?'spec':s.startsWith('TO')?'todo':'';return `<span class="pill ${c}">${esc(s.split(':')[0])}</span>`}
+function assets(){const phases=[...new Set(D.pieces.map(p=>p.phase))];const f=S._f||'';
+return `<div class="bar"><select onchange="S._f=this.value;save();render()"><option value="">All phases</option>${phases.map(p=>`<option ${p===f?'selected':''}>${p}</option>`).join('')}</select>
+<span class="meta">${D.pieces.length} pieces · click an image or video to enlarge</span></div>
+<div class="grid">${D.pieces.filter(p=>!f||p.phase===f).map(p=>`<div class="card"><div class="thumbs">
+${p.vids.map(v=>`<video src="${v}" muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()" onclick="zoom('${v}',1)"></video>`).join('')}
+${p.imgs.map(i=>`<img loading="lazy" src="${i}" onclick="zoom('${i}')">`).join('')||'<div style="height:300px;display:flex;align-items:center;padding:20px;color:#6b6b6b">Script / spec only (see scripts doc)</div>'}</div>
+<div class="body"><div class="meta"><b>${p.id}</b><span>${p.date}</span><span>${p.platforms.join(' · ')}</span>${statusPill(p.status)}</div>
+<div class="t">${esc(p.title)}</div><div class="hook">“${esc(p.hook)}”</div>
+<details><summary>Caption, CTA &amp; notes</summary><pre>${esc(p.caption)}</pre><p><b>CTA:</b> ${esc(p.cta)}<br><b>Link:</b> ${esc(p.url)}</p>${p.deps?`<p><b>Dependencies:</b> ${esc(p.deps)}</p>`:''}${p.alt.length?`<p><b>Backups:</b> ${p.alt.map(esc).join('<br>')}</p>`:''}</details>
+${decisionUI(p.id)}</div></div>`).join('')}</div>`}
+function alts(){return `<div class="box"><h2>Backup concepts</h2>Genuinely different directions for the key moments. Choose “Use backup” on the primary piece and approve the backup here.</div>
+<div class="grid">${D.alts.concat(D.templates).map(a=>`<div class="card"><div class="thumbs"><img src="${a.file}" onclick="zoom('${a.file}')"></div><div class="body"><div class="t">${esc(a.name.replace('.png','').replace('stories/',''))}</div>${decisionUI(a.name)}</div></div>`).join('')}</div>`}
+function cal(){const q=(S._q||'').toLowerCase();const pl=S._p||'';const plats=[...new Set(C.map(r=>r.Platform))];
+const rows=C.filter(r=>(!pl||r.Platform===pl)&&(!q||JSON.stringify(r).toLowerCase().includes(q)));
+return `<div class="bar"><select onchange="S._p=this.value;save();render()"><option value="">All platforms</option>${plats.map(p=>`<option ${p===pl?'selected':''}>${p}</option>`).join('')}</select>
+<input placeholder="Search…" value="${esc(S._q||'')}" onchange="S._q=this.value;save();render()"><span class="meta">${rows.length} of ${C.length} posts · full detail in the .xlsx</span></div>
+<div style="overflow:auto;max-height:78vh"><table><tr>${['Date','Day','Time','Platform','Format','ID','Title','Hook','CTA','Production','Dependencies'].map(h=>`<th>${h}</th>`).join('')}</tr>
+${rows.map(r=>`<tr><td>${r.Date}</td><td>${r.Day}</td><td>${r.Time}</td><td>${r.Platform}</td><td>${esc(r.Format)}</td><td><b>${r.ID}</b></td><td>${esc(r.Title)}</td><td>${esc(r.Hook)}</td><td>${esc(r.CTA)}</td><td>${esc(r.Production)}</td><td>${esc(r.Dependencies)}</td></tr>`).join('')}</table></div>`}
+function jan(){return `<div class="box"><h2>January 2027: final founding enrollment window</h2>Truthful countdown to the scheduled $69.99 price on Feb 1. No fabricated scarcity.</div>
+<table><tr><th>Date</th><th>Moment</th><th>Formats</th><th>Objective</th></tr>${D.jan.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</table>
+<div class="box" style="margin-top:18px"><h2>Platform cadence (initial assumptions)</h2><table><tr><th>Channel</th><th>Frequency</th><th>Time</th><th>Notes</th></tr>${D.cadence.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</table></div>`}
+function dec(){const sum=Object.entries(S).filter(([k,v])=>!k.startsWith('_')&&(v.v||v.n)).map(([k,v])=>`${k}: ${v.v||'(no decision)'}${v.n?' | '+v.n:''}`).join('\n');
+return `<div class="box"><h2>Decisions only you can make</h2><ol>${D.decisions.map(d=>`<li style="margin-bottom:8px">${esc(d)}</li>`).join('')}</ol></div>
+<div class="box"><h2>Your review decisions</h2><p>Saved in this browser only. Copy and paste them to Claude to apply edits, swap backups and update the calendar.</p>
+<textarea class="out" id="out" readonly>${esc(sum||'No decisions yet.')}</textarea><p><button class="btn" onclick="cp()">Copy my decisions</button> <span id="cpm" class="meta"></span></p></div>`}
+window.cp=async()=>{const t=document.getElementById('out');try{await navigator.clipboard.writeText(t.value);document.getElementById('cpm').textContent='Copied.'}catch(e){t.select();document.getElementById('cpm').textContent='Select-all and copy manually (Cmd/Ctrl+C).'}};
+function render(){document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.t===tab));
+document.getElementById('app').innerHTML=({assets,alts,cal,jan,dec}[tab]||assets)()}
+document.getElementById('tabs').onclick=e=>{if(e.target.dataset.t){tab=e.target.dataset.t;location.hash=tab;render()}};
+window.addEventListener('hashchange',()=>{tab=location.hash.replace('#','')||'assets';render()});
+Promise.all([fetch('data.json').then(r=>r.json()),fetch('calendar.json').then(r=>r.json())]).then(([d,c])=>{D=d;C=c;render()});
+</script></body></html>
