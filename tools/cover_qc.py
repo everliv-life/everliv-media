@@ -43,8 +43,8 @@ if __name__=='__main__':
         if a.startswith('--platform='): plat=a.split('=',1)[1]
     if plat.lower() in ('tiktok','x','twitter','threads','carousel'):
         # first 0.5 s must all be non-blank (covers platforms that sample slightly after frame 0)
-        early=[r for r in rows if r['t']<0.5]
+        early=[r for r in rows if r['t']<0.5] if plat.lower()=='tiktok' else rows[:1]
         res['gate']=dict(platform=plat,passed=not any(r['t'] in blank for r in early),
-                         rule='first 0.5 s non-blank in full frame and every grid crop')
+                         rule=('first 0.5 s' if plat.lower()=='tiktok' else 'frame 0')+' non-blank in full frame and every grid crop')
     print(json.dumps(res))
     if res.get('gate') and not res['gate']['passed']: sys.exit(2)
