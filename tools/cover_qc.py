@@ -36,4 +36,15 @@ if __name__=='__main__':
     im=dict(fr)[best['t']]; im.save(f'{od}/{base}--cover.png')
     for k,c in grid_crops(im).items(): c.resize((300,int(300*c.height/c.width))).save(f'{od}/{base}--cover-{k}.png')
     dict(fr)[0.0].save(f'{od}/{base}--frame0.png')
+    # GATE (standard 2026-11-19): TikTok, X, Threads and IG/TikTok carousel video slides must open on
+    # a meaningful frame because their cover setting is absent or unverified. Pass --platform to enforce.
+    plat=os.environ.get('QC_PLATFORM','')
+    for a in sys.argv[3:]:
+        if a.startswith('--platform='): plat=a.split('=',1)[1]
+    if plat.lower() in ('tiktok','x','twitter','threads','carousel'):
+        # first 0.5 s must all be non-blank (covers platforms that sample slightly after frame 0)
+        early=[r for r in rows if r['t']<0.5]
+        res['gate']=dict(platform=plat,passed=not any(r['t'] in blank for r in early),
+                         rule='first 0.5 s non-blank in full frame and every grid crop')
     print(json.dumps(res))
+    if res.get('gate') and not res['gate']['passed']: sys.exit(2)
